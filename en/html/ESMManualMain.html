@@ -42,18 +42,14 @@ function prClose()
 
 function Old(obj)
 {
-  if(!obj || obj ==""){
-    alert("Old()関数にオブジェクトが渡されていません。");
-    return;
-  }
-  else{
-    if (obj.name !="BASE"){
-      alert("詳細画面のOld()関数は使用できません。");
-      return;
-    }
-  }
-  var title = obj.document.title;
-  if(obj.document.title==""){title=document.title;}
+  if(!obj){ return; }
+  var title = "";
+  try {
+    // obj may be a window (IE) or body element (Chrome)
+    var doc = obj.document || (obj.ownerDocument);
+    if (doc) { title = doc.title; }
+  } catch(e) {}
+  if (!title) { title = document.title; }
   prSetTitle(title);
   return "";
 }
