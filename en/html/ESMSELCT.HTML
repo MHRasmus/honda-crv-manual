@@ -156,7 +156,7 @@ function WordSearch()
 {
   var  strTree;
 
-  gESM.Keyword = document.all("txtWord").value;
+  gESM.Keyword = document.getElementById("txtWord").value;
   document.ESM = gESM;
   parent.document.ESM = document.ESM;
   if(radSM.checked == true) {
@@ -166,7 +166,7 @@ function WordSearch()
     strTree = "BRL_";
   }
   else {
-    document.iframeTree.location = "./ESMBLANK.HTML";
+    document.getElementById("iframeTree").src = "./ESMBLANK.HTML";
     return;
   }
   strTree += gModelInfo[gESM.mySel].CodeList[gESM.mcSel].Code + "_";
@@ -184,7 +184,7 @@ function ClearSearch()
   gESM.Comp = "";        
   gESM.Sitq = "";        
   gESM.Keyword = "";     
-  document.all("txtWord").value = "";
+  document.getElementById("txtWord").value = "";
 
   parent.F12.location="./ESMBLANK.HTML";
   if(radSM.checked == true) {
@@ -194,12 +194,12 @@ function ClearSearch()
     strTree = "BRT_";
   }
   else {
-    document.iframeTree.location = "./ESMBLANK.HTML";
+    document.getElementById("iframeTree").src = "./ESMBLANK.HTML";
     return;
   }
   strTree += gModelInfo[gESM.mySel].CodeList[gESM.mcSel].Code + "_";
   strTree += gModelInfo[gESM.mySel].Year + ".html";
-  document.iframeTree.location = strTree;
+  document.getElementById("iframeTree").src = strTree;
 
 }
 function SortComp(p1, p2)
@@ -253,12 +253,12 @@ function OnChangeModelCode()
     strTree = "BRT_";
   }
   else {
-    document.iframeTree.location = "./ESMBLANK.HTML";
+    document.getElementById("iframeTree").src = "./ESMBLANK.HTML";
     return;
   }
   strTree += gModelInfo[gESM.mySel].CodeList[gESM.mcSel].Code + "_";
   strTree += gModelInfo[gESM.mySel].Year + ".html";
-  document.iframeTree.location = strTree;
+  document.getElementById("iframeTree").src = strTree;
 }
 function OnChangeModel()
 {
@@ -295,35 +295,27 @@ function OnChangeIndv(fReload, nIndex)
     strTree = "BRT_";
   }
   else {
-    document.iframeTree.location = "./ESMBLANK.HTML";
+    document.getElementById("iframeTree").src = "./ESMBLANK.HTML";
     return;
   }
   strTree += gModelInfo[gESM.mySel].CodeList[gESM.mcSel].Code + "_";
   strTree += gModelInfo[gESM.mySel].Year + ".html";
-  document.iframeTree.location = strTree;
+  document.getElementById("iframeTree").src = strTree;
   parent.ChangeModelType(true);
 
 }
 function Old(obj){
-  if(obj == null){
-    
-    return;
-  }
-  if(obj.name == iframeTree.name){
-    divSysCompTreeSearching.style.display = "none";
-    divSysCompTreeSearched.style.display = "block";
-    gESM.Key = "";         
-    gESM.Sct = "";         
-    gESM.Sc  = "";         
-    gESM.Sys = "";         
-    gESM.Comp = "";        
-    gESM.Sitq = "";        
-    gESM.Keyword = "";     
-    document.ESM = gESM;
-  }
-  else {
-    
-  }
+  if(obj == null){ return; }
+  document.getElementById("divSysCompTreeSearching").style.display = "none";
+  document.getElementById("divSysCompTreeSearched").style.display = "block";
+  gESM.Key = "";
+  gESM.Sct = "";
+  gESM.Sc  = "";
+  gESM.Sys = "";
+  gESM.Comp = "";
+  gESM.Sitq = "";
+  gESM.Keyword = "";
+  document.ESM = gESM;
 }
 function Tsl(key,sct,sc,sys,comp,sitq){
   gESM.Key = key;         
