@@ -154,13 +154,16 @@ function Initialize()
   }
 }
 function Old(obj){
-  if(obj == null){
-    
-    return;
+  if(obj == null){ return; }
+  // obj may be a window (IE) or body element (Chrome)
+  var wnd = obj.window ? obj : (obj.ownerDocument && obj.ownerDocument.defaultView);
+  if (!wnd) { return; }
+  if (typeof wnd.Fsl === 'function') {
+    wnd.Fsl(gESM.Key,gESM.Sct,gESM.Sc,gESM.Sys,gESM.Comp,gESM.Sitq,gESM.Keyword);
   }
-  obj.Fsl(gESM.Key,gESM.Sct,gESM.Sc,gESM.Sys,gESM.Comp,gESM.Sitq,gESM.Keyword);
-
-  obj.Chh(obj.document.body.clientHeight);
+  if (typeof wnd.Chh === 'function') {
+    wnd.Chh(wnd.document.body.clientHeight);
+  }
 }
 function Tsl(key,sct,sc,sys,comp,sitq){
  
