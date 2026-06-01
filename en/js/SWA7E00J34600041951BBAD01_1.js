@@ -1,0 +1,31 @@
+with(document) {
+write("<v:group id=\"group1\"  name=\"PrtGrpId\" class=\"drag\" style=\"position:relative; width:950px; height:633px;\" coordsize=\"950,633\">");
+write("<v:rect id=\"rect1\" name=\"PrtRectId\"class=\"drag\"  style=\"width:950px;height:633px;\">");
+write("<img id=\"img1\" name=\"PrtImgId\" src=\"../img/SWA7E00J34600041951BBAD01.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:633px;border-color:#ffffff\">");
+write("<p id=\"p1_1\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:346px;top:247px;font-weight:normal;font-size:6.8pt;\">");
+write("<nobr><b>(B−CAN)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_2\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:456px;top:444px;font-weight:normal;font-size:6.8pt;\">");
+write("<nobr><b>Test Mode 2<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_3\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:337px;top:218px;font-weight:normal;font-size:6.8pt;\">");
+write("<nobr><b>Test Mode 1<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_4\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:556px;top:258px;font-weight:normal;font-size:6.8pt;\">");
+write("<nobr><b>MICU<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_5\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:747px;top:33px;font-weight:normal;font-size:6.8pt;\">");
+write("<nobr><b>: Communication line<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_6\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:633px;top:434px;font-weight:normal;font-size:6.8pt;\">");
+write("<nobr><b>DRIVER'S DOOR <br>SWITCH <br>(Closed : Door open)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_7\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:62px;top:251px;font-weight:normal;font-size:6.8pt;\">");
+write("<nobr><b>GAUGE CONTROL <br>MODULE<br>(DOOR indicator ON/OFF)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_8\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:683px;top:138px;font-weight:normal;font-size:6.8pt;\">");
+write("<nobr><b>CEILING <br>LIGHT<br></b></nobr>");
+write("</p>");
+write("</v:rect>");
+write("</v:group>");
+}

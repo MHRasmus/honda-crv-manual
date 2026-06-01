@@ -1,0 +1,34 @@
+with(document) {
+write("<v:group id=\"group1\"  name=\"PrtGrpId\" class=\"drag\" style=\"position:relative; width:950px; height:511px;\" coordsize=\"950,511\">");
+write("<v:rect id=\"rect1\" name=\"PrtRectId\"class=\"drag\"  style=\"width:950px;height:511px;\">");
+write("<img id=\"img1\" name=\"PrtImgId\" src=\"../img/SWA7E12E44300000000CAAD06.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:511px;border-color:#ffffff\">");
+write("<p id=\"p1_1\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:450px;top:116px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>FRONT<br>OIL<br>PUMP<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_2\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:500px;top:203px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>MAITI-<br>CLUTCH<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_3\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:393px;top:228px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>RELIEF<br>VALVE<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_4\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:355px;top:184px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>OIL<br>CASE<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_5\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:284px;top:323px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>REAR OIL<br>PRESSURE<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_6\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:450px;top:322px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>REAR<br>OIL<br>PUMP<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_7\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:582px;top:151px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>FRONT OIL<br>PRESSURE<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_8\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:629px;top:49px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>FRONT WHEEL<br>DRIVING FORCE<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_9\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:195px;top:49px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>FRONT WHEEL<br>DRIVING FORCE<br></b></nobr>");
+write("</p>");
+write("</v:rect>");
+write("</v:group>");
+}

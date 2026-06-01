@@ -1,0 +1,656 @@
+<html lang="en" xmlns:v="urn:schemas-microsoft-com:vml">
+<head>
+<meta name="author" content="HONDA MOTOR Co.,Ltd.">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<title>(
+SWA7E2AK72100090420FAAT00
+)</title>
+<script>
+<!--
+var strPara = location.href.split("?")[1];
+document.title = strPara + document.title;
+
+function CtsProc(Type,Key,Anc) {
+	if(Type == '0') {
+		parent.Cts(Key,Anc+'?'+strPara);
+	}
+	else if(Type == '1') {
+		parent.parent.Cts(Key,Anc+'?'+strPara);
+	}
+	else if(Type == '2') {
+		opener.top.Cts(Key,Anc+'?'+strPara);
+	}
+	else {
+		parent.Cts(Key,Anc+'?'+strPara);
+	}
+}
+
+function PrtProc(Type,Key,Anc) {
+	if(Type == '0') {
+		parent.Prt(Key,Anc+'?'+strPara);
+	}
+	else if(Type == '1') {
+		parent.parent.Prt(Key,Anc+'?'+strPara);
+	}
+	else if(Type == '2') {
+		opener.top.Prt(Key,Anc+'?'+strPara);
+	}
+	else {
+		parent.Prt(Key,Anc+'?'+strPara);
+	}
+}
+-->
+</script>
+<link href="../css/ViewerStyle.css" rel="stylesheet">
+<style>
+	v\:*	{ behavior: url(#default#VML); }
+	.drag	{ position: relative; cursor:   hand; }
+</style>
+</head>
+<script>
+<!--
+-->
+</script>
+<script src="../js/PrinterSize.js"></script>
+<script src="../js/StandardPrintFunc.js"></script>
+<body onload="javascript:parent.Old(this)" style="font-family:sans-serif;">
+<div xmlns:v="urn:schemas-microsoft-com:vml">
+<div class="top_title">
+DTC Troubleshooting: P0420 (67)
+</div>
+<span style="display:none" id="hrDivId">
+<div style="page-break-after:always">
+</div>
+</span>
+<hr width="100%" size="2" id="hrId" color="gray">
+<table width="100%" class="Viewer">
+<tr>
+<td width="80%" class="ViewerTD" id="textTd" valign="top">
+<b>
+DTC P0420:
+</b>
+<div>
+ Catalyst System Efficiency Below Threshold
+</div>
+<div>
+NOTE:
+</div>
+<ul type="disc">
+<li>
+<div>
+Before you troubleshoot, record all freeze data and any on-board snapshot, and 
+<a href="javascript:CtsProc('0','000000000001501','i000')">
+review the general troubleshooting information.
+</a>
+</div>
+</li>
+<li>
+<div>
+If some of the DTCs listed below are stored at the same time as DTC P0420, troubleshoot them first, then recheck for DTC P0420.
+</div>
+<div>
+P0137, P0138: Secondary HO2S (Sensor 2)
+</div>
+<div>
+P0141: Secondary HO2S (Sensor 2) heater
+</div>
+<div>
+P0300: Random misfire
+</div>
+<div>
+P0301: No. 1 cylinder misfire detected
+</div>
+<div>
+P0302: No. 2 cylinder misfire detected
+</div>
+<div>
+P0303: No. 3 cylinder misfire detected
+</div>
+<div>
+P0304: No. 4 cylinder misfire detected
+</div>
+</li>
+<li>
+<div>
+Poor quality fuel may cause this DTC.
+</div>
+</li>
+</ul>
+<a name="i010">
+</a>
+<ol>
+<li value="1">
+<div>
+Turn the ignition switch ON (II).
+</div>
+</li>
+</ol>
+<a name="i020">
+</a>
+<ol>
+<li value="2">
+<div>
+Clear the DTC with the HDS.
+</div>
+</li>
+</ol>
+<a name="i030">
+</a>
+<ol>
+<li value="3">
+<div>
+Start the engine. Hold the engine speed at 3,000 rpm (min
+<sup>
+−1
+</sup>
+) without load (in Park or neutral) until the radiator fan comes on, then let it idle.
+</div>
+</li>
+</ol>
+<a name="i040">
+</a>
+<ol>
+<li value="4">
+<div>
+Test-drive under these conditions:
+</div>
+<ul type="disc">
+<li>
+<div>
+Engine coolant temperature (ECT SENSOR 1) above 70 °C (158 °F)
+</div>
+</li>
+<li>
+<div>
+A/T in D position (M/T in 5th gear)
+</div>
+</li>
+<li>
+<div>
+Vehicle speed between 72−120 km/h (45−75 mph) for 5 minutes or more with cruise control set
+</div>
+</li>
+<li>
+<div>
+Maintain the vehicle speed at 88 km/h (55 mph) for 5 minutes or more with cruise control set
+</div>
+</li>
+</ul>
+</li>
+</ol>
+<a name="i050">
+</a>
+<ol>
+<li value="5">
+<div>
+Monitor the OBD STATUS for DTC P0420 in the DTCs MENU with the HDS.
+</div>
+</li>
+</ol>
+<table class="Viewer" frame="void" style="margin-left:40px;">
+<tr>
+<td class="ViewerTD">
+<i>
+<div>
+<i>
+Does the screen indicate EXECUTING?
+</i>
+</div>
+</i>
+</td>
+</tr>
+</table>
+<table class="Viewer" frame="void" style="margin-left:50px;">
+<tr>
+<td width="30" class="ViewerTD">
+<b>
+YES
+</b>
+</td>
+<td width="10" class="ViewerTD" align="center">-
+</td>
+<td class="ViewerTD">
+<div>
+Go to 
+<a href="javascript:parent.Jmp('i060')">Step 6
+</a>
+.
+</div>
+</td>
+</tr>
+<tr>
+<td width="30" class="ViewerTD">
+<b>
+NO
+</b>
+</td>
+<td width="10" class="ViewerTD" align="center">-
+</td>
+<td class="ViewerTD">
+<div>
+Go to 
+<a href="javascript:parent.Jmp('i040')">Step 4
+</a>
+ and recheck.
+</div>
+</td>
+</tr>
+</table>
+<a name="i060">
+</a>
+<ol>
+<li value="6">
+<div>
+Continue test driving until a result comes on.
+</div>
+</li>
+</ol>
+<a name="i070">
+</a>
+<ol>
+<li value="7">
+<div>
+Monitor the OBD STATUS for DTC P0420 in the DTCs MENU with the HDS.
+</div>
+</li>
+</ol>
+<table class="Viewer" frame="void" style="margin-left:40px;">
+<tr>
+<td class="ViewerTD">
+<i>
+<div>
+<i>
+Does the screen indicate FAILED?
+</i>
+</div>
+</i>
+</td>
+</tr>
+</table>
+<table class="Viewer" frame="void" style="margin-left:50px;">
+<tr>
+<td width="30" class="ViewerTD">
+<b>
+YES
+</b>
+</td>
+<td width="10" class="ViewerTD" align="center">-
+</td>
+<td class="ViewerTD">
+<div>
+Go to 
+<a href="javascript:parent.Jmp('i080')">Step 8
+</a>
+.
+</div>
+</td>
+</tr>
+<tr>
+<td width="30" class="ViewerTD">
+<b>
+NO
+</b>
+</td>
+<td width="10" class="ViewerTD" align="center">-
+</td>
+<td class="ViewerTD">
+<div>
+If the screen indicates PASSED, intermittent failure, the system is OK at this time. If the screen indicates EXECUTING, keep driving until a result comes on. If the screen indicates OUT OF CONDITION, go to 
+<a href="javascript:parent.Jmp('i040')">Step 4
+</a>
+ and recheck.
+</div>
+</td>
+</tr>
+</table>
+<a name="i080">
+</a>
+<ol>
+<li value="8">
+<div>
+Turn the ignition switch OFF.
+</div>
+</li>
+</ol>
+<a name="i090">
+</a>
+<ol>
+<li value="9">
+<div>
+<a href="javascript:CtsProc('0','000000000001290','i000')">
+Replace the TWC.
+</a>
+</div>
+</li>
+</ol>
+<a name="i100">
+</a>
+<ol>
+<li value="10">
+<div>
+Turn the ignition switch ON (II).
+</div>
+</li>
+</ol>
+<a name="i110">
+</a>
+<ol>
+<li value="11">
+<div>
+Reset the ECM/PCM with the HDS.
+</div>
+</li>
+</ol>
+<a name="i120">
+</a>
+<ol>
+<li value="12">
+<div>
+<a href="javascript:CtsProc('0','000000000001342','i000')">
+Do the ECM/PCM idle learn procedure.
+</a>
+</div>
+</li>
+</ol>
+<a name="i130">
+</a>
+<ol>
+<li value="13">
+<div>
+Start the engine. Hold the engine speed at 3,000 rpm (min
+<sup>
+−1
+</sup>
+) without load (in Park or neutral) until the radiator fan comes on, then let it idle.
+</div>
+</li>
+</ol>
+<a name="i140">
+</a>
+<ol>
+<li value="14">
+<div>
+Test-drive for about 10 minutes, varying the vehicle speed.
+</div>
+</li>
+</ol>
+<a name="i150">
+</a>
+<ol>
+<li value="15">
+<div>
+Check the CATA MON TEMP in the DATA LIST with the HDS.
+</div>
+</li>
+</ol>
+<table class="Viewer" frame="void" style="margin-left:40px;">
+<tr>
+<td class="ViewerTD">
+<i>
+<div>
+<i>
+Is the temperature OK?
+</i>
+</div>
+</i>
+</td>
+</tr>
+</table>
+<table class="Viewer" frame="void" style="margin-left:50px;">
+<tr>
+<td width="30" class="ViewerTD">
+<b>
+YES
+</b>
+</td>
+<td width="10" class="ViewerTD" align="center">-
+</td>
+<td class="ViewerTD">
+<div>
+Go to 
+<a href="javascript:parent.Jmp('i160')">Step 16
+</a>
+.
+</div>
+</td>
+</tr>
+<tr>
+<td width="30" class="ViewerTD">
+<b>
+NO
+</b>
+</td>
+<td width="10" class="ViewerTD" align="center">-
+</td>
+<td class="ViewerTD">
+<div>
+Go to 
+<a href="javascript:parent.Jmp('i130')">Step 13
+</a>
+ and recheck.
+</div>
+</td>
+</tr>
+</table>
+<a name="i160">
+</a>
+<ol>
+<li value="16">
+<div>
+Test-drive under these conditions:
+</div>
+<ul type="disc">
+<li>
+<div>
+Engine coolant temperature (ECT SENSOR 1) above 70 °C (158 °F)
+</div>
+</li>
+<li>
+<div>
+A/T in D position (M/T in 5th gear)
+</div>
+</li>
+<li>
+<div>
+Vehicle speed at 88 km/h (55 mph) for 5 minutes or more with cruise control set
+</div>
+</li>
+</ul>
+</li>
+</ol>
+<a name="i170">
+</a>
+<ol>
+<li value="17">
+<div>
+Monitor the OBD STATUS for DTC P0420 in the DTCs MENU with the HDS.
+</div>
+</li>
+</ol>
+<table class="Viewer" frame="void" style="margin-left:40px;">
+<tr>
+<td class="ViewerTD">
+<i>
+<div>
+<i>
+Does the screen indicate EXECUTING?
+</i>
+</div>
+</i>
+</td>
+</tr>
+</table>
+<table class="Viewer" frame="void" style="margin-left:50px;">
+<tr>
+<td width="30" class="ViewerTD">
+<b>
+YES
+</b>
+</td>
+<td width="10" class="ViewerTD" align="center">-
+</td>
+<td class="ViewerTD">
+<div>
+Go to 
+<a href="javascript:parent.Jmp('i180')">Step 18
+</a>
+.
+</div>
+</td>
+</tr>
+<tr>
+<td width="30" class="ViewerTD">
+<b>
+NO
+</b>
+</td>
+<td width="10" class="ViewerTD" align="center">-
+</td>
+<td class="ViewerTD">
+<div>
+Go to 
+<a href="javascript:parent.Jmp('i160')">Step 16
+</a>
+ and recheck.
+</div>
+</td>
+</tr>
+</table>
+<a name="i180">
+</a>
+<ol>
+<li value="18">
+<div>
+Continue test-driving until a result comes on.
+</div>
+</li>
+</ol>
+<a name="i190">
+</a>
+<ol>
+<li value="19">
+<div>
+Check for Temporary DTCs or DTCs with the HDS.
+</div>
+</li>
+</ol>
+<table class="Viewer" frame="void" style="margin-left:40px;">
+<tr>
+<td class="ViewerTD">
+<i>
+<div>
+<i>
+Is DTC P0420 indicated?
+</i>
+</div>
+</i>
+</td>
+</tr>
+</table>
+<table class="Viewer" frame="void" style="margin-left:50px;">
+<tr>
+<td width="30" class="ViewerTD">
+<b>
+YES
+</b>
+</td>
+<td width="10" class="ViewerTD" align="center">-
+</td>
+<td class="ViewerTD">
+<div>
+Check the fuel quality, then go to 
+<a href="javascript:parent.Jmp('i010')">Step 1
+</a>
+.
+</div>
+</td>
+</tr>
+<tr>
+<td width="30" class="ViewerTD">
+<b>
+NO
+</b>
+</td>
+<td width="10" class="ViewerTD" align="center">-
+</td>
+<td class="ViewerTD">
+<div>
+Go to 
+<a href="javascript:parent.Jmp('i200')">Step 20
+</a>
+.
+</div>
+</td>
+</tr>
+</table>
+<a name="i200">
+</a>
+<ol>
+<li value="20">
+<div>
+Monitor the OBD STATUS for DTC P0420 in the DTCs MENU with the HDS.
+</div>
+</li>
+</ol>
+<table class="Viewer" frame="void" style="margin-left:40px;">
+<tr>
+<td class="ViewerTD">
+<i>
+<div>
+<i>
+Does the screen indicate PASSED?
+</i>
+</div>
+</i>
+</td>
+</tr>
+</table>
+<table class="Viewer" frame="void" style="margin-left:50px;">
+<tr>
+<td width="30" class="ViewerTD">
+<b>
+YES
+</b>
+</td>
+<td width="10" class="ViewerTD" align="center">-
+</td>
+<td class="ViewerTD">
+<div>
+Troubleshooting is complete. If any other Temporary DTCs or DTCs were indicated in 
+<a href="javascript:parent.Jmp('i190')">Step 19
+</a>
+, go to the indicated DTC's troubleshooting.■
+</div>
+</td>
+</tr>
+<tr>
+<td width="30" class="ViewerTD">
+<b>
+NO
+</b>
+</td>
+<td width="10" class="ViewerTD" align="center">-
+</td>
+<td class="ViewerTD">
+<div>
+If the screen indicates FAILED, check the fuel quality, then go to 
+<a href="javascript:parent.Jmp('i010')">Step 1
+</a>
+. If the screen indicates EXECUTING, keep driving until a result comes on. If the screen indicates OUT OF CONDITION, go to 
+<a href="javascript:parent.Jmp('i130')">Step 13
+</a>
+.
+</div>
+</td>
+</tr>
+</table>
+</td>
+<td width="20%" class="ViewerTD" id="graphTd" valign="top">
+</td>
+</tr>
+</table>
+</div>
+</body>
+</html>

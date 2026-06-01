@@ -1,0 +1,31 @@
+with(document) {
+write("<v:group id=\"group1\"  name=\"PrtGrpId\" class=\"drag\" style=\"position:relative; width:950px; height:431px;\" coordsize=\"950,431\">");
+write("<v:rect id=\"rect1\" name=\"PrtRectId\"class=\"drag\"  style=\"width:950px;height:431px;\">");
+write("<img id=\"img1\" name=\"PrtImgId\" src=\"../img/SWA7E1PE10480100000CAAD06.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:431px;border-color:#ffffff\">");
+write("<p id=\"p1_1\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:326px;top:16px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>SHIFT SOLENOID<br>VALVE A<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_2\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:295px;top:85px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>SHIFT SOLENOID<br>VALVE B<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_3\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:741px;top:181px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>SHIFT SOLENOID<br>VALVE C<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_4\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:667px;top:18px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>SHIFT SOLENOID<br>VALVE D<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_5\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:731px;top:69px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>SHIFT SOLENOID<br>VALVE E<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_6\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:767px;top:312px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>SERVO BODY<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_7\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:175px;top:398px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>SERVO VALVE<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_8\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:471px;top:398px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>SHIFT VALVE D<br></b></nobr>");
+write("</p>");
+write("</v:rect>");
+write("</v:group>");
+}

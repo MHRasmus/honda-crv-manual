@@ -1,0 +1,37 @@
+with(document) {
+write("<v:group id=\"group1\"  name=\"PrtGrpId\" class=\"drag\" style=\"position:relative; width:950px; height:927px;\" coordsize=\"950,927\">");
+write("<v:rect id=\"rect1\" name=\"PrtRectId\"class=\"drag\"  style=\"width:950px;height:927px;\">");
+write("<img id=\"img1\" name=\"PrtImgId\" src=\"../img/SWA7E30A14100012901LAAD01.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:927px;border-color:#ffffff\">");
+write("<p id=\"p1_1\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:368px;top:17px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>ROTOR<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_2\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:501px;top:66px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>BEARING<br>RETAINER<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_3\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:590px;top:128px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>FRONT BEARING<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_4\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:732px;top:177px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>DRIVE END<br>HOUSING<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_5\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:825px;top:279px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>PULLEY<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_6\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:861px;top:333px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>PULLEY<br>LOCKNUT<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_7\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:21px;top:570px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>TERMINAL<br>INSULATOR<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_8\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:171px;top:759px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>BRUSH HOLDER<br>ASSEMBLY<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_9\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:389px;top:884px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>REAR HOUSING<br>ASSEMBLY<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_10\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:103px;top:669px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>END COVER<br></b></nobr>");
+write("</p>");
+write("</v:rect>");
+write("</v:group>");
+}

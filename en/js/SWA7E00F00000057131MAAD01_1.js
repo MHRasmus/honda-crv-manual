@@ -1,0 +1,37 @@
+with(document) {
+write("<v:group id=\"group1\"  name=\"PrtGrpId\" class=\"drag\" style=\"position:relative; width:950px; height:863px;\" coordsize=\"950,863\">");
+write("<v:rect id=\"rect1\" name=\"PrtRectId\"class=\"drag\"  style=\"width:950px;height:863px;\">");
+write("<img id=\"img1\" name=\"PrtImgId\" src=\"../img/SWA7E00F00000057131MAAD01.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:863px;border-color:#ffffff\">");
+write("<p id=\"p1_1\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:366px;top:16px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>STEERING COLUMN<br></b>Inspect for loose<br>mounting hardware.<br></nobr>");
+write("</p>");
+write("<p id=\"p1_2\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:597px;top:367px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>BOOT<br></b>Inspect for damage<br>and deterioration.<br></nobr>");
+write("</p>");
+write("<p id=\"p1_3\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:17px;top:628px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>STEERING GEARBOX<br></b>Inspect for loose mounting hardware.<br></nobr>");
+write("</p>");
+write("<p id=\"p1_4\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:17px;top:659px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>GEARBOX MOUNT CUSHION</b><br>Inspect for deterioration.<br></nobr>");
+write("</p>");
+write("<p id=\"p1_5\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:674px;top:432px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>TIE-ROD LOCKNUT<br></b>Check for loose locknut.<br></nobr>");
+write("</p>");
+write("<p id=\"p1_6\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:699px;top:717px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>TIE-ROD END BALL JOINT<br></b>Inspect for faulty movement<br>and damage.<br></nobr>");
+write("</p>");
+write("<p id=\"p1_7\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:800px;top:616px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>BALL JOINT BOOT<br></b>Inspect for damage<br>and deterioration.<br></nobr>");
+write("</p>");
+write("<p id=\"p1_8\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:638px;top:288px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>STEERING JOINTS<br></b>Check for a loose joint bolt, or<br>faulty movement.<br></nobr>");
+write("</p>");
+write("<p id=\"p1_9\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:285px;top:717px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>GEARBOX BRACKETS<br></b>Inspect for damage and deterioration.<br></nobr>");
+write("</p>");
+write("<p id=\"p1_10\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:0px;top:833px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b></b>The illustration shows LHD type, RHD type is symmetrical.<br></nobr>");
+write("</p>");
+write("</v:rect>");
+write("</v:group>");
+}

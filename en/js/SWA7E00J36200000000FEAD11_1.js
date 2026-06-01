@@ -1,0 +1,31 @@
+with(document) {
+write("<v:group id=\"group1\"  name=\"PrtGrpId\" class=\"drag\" style=\"position:relative; width:475px; height:320px;\" coordsize=\"475,320\">");
+write("<v:rect id=\"rect1\" name=\"PrtRectId\"class=\"drag\"  style=\"width:475px;height:320px;\">");
+write("<img id=\"img1\" name=\"PrtImgId\" src=\"../img/SWA7E00J36200000000FEAD11.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:475px;height:320px;border-color:#ffffff\">");
+write("<p id=\"p1_1\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:177px;top:240px;font-weight:normal;font-size:8.3pt;\">");
+write("<nobr><b>Return<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_2\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:63px;top:74px;font-weight:normal;font-size:7.0pt;\">");
+write("<nobr><b>1<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_3\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:260px;top:239px;font-weight:normal;font-size:8.3pt;\">");
+write("<nobr><b>Set<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_4\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:408px;top:72px;font-weight:normal;font-size:7.0pt;\">");
+write("<nobr><b>2<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_5\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:66px;top:233px;font-weight:normal;font-size:7.0pt;\">");
+write("<nobr><b>3<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_6\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:406px;top:230px;font-weight:normal;font-size:7.0pt;\">");
+write("<nobr><b>4<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_7\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:235px;top:162px;font-weight:normal;font-size:7.0pt;\">");
+write("<nobr><b>5<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_8\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:97px;top:53px;font-weight:normal;font-size:8.9pt;\">");
+write("<nobr><b>Please press the center of''+''button.<br></b></nobr>");
+write("</p>");
+write("</v:rect>");
+write("</v:group>");
+}

@@ -1,0 +1,189 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN"
+                      "http://www.w3.org/TR/html4/frameset.dtd">
+<html lang="en">
+<head>
+<meta name="author" content="HONDA MOTOR Co.,Ltd.">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<link href="../css/ViewerStyle.css" rel="stylesheet">
+<script src="../js/SieListFunc.js"></script>
+<script>
+<!--
+var tDT     = new Array;
+var cdInfo  = new Array;
+var trSel   = null;
+function SieTitleList()
+{
+  var i=0;
+  var j;
+  tDT[i++]=SieTitleItem("SWA7E00R00000000000YCAT01","000000000000819","019","Special Information","","","","");
+  tDT[i++]=SieTitleItem("SWA7E00R00000000000YCAT02","000000000000820","019","Symbols","","","","");
+  tDT[i++]=SieTitleItem("SWA7E00R11100000000YCAT01","000000000000821","020","SRS Information","","","","");
+  tDT[i++]=SieTitleItem("SWA7E00R11100000000YCAT02","000000000000822","020","SRS Component Replacement/Inspection After Deployment","","","","");
+  tDT[i++]=SieTitleItem("SWA7E00R11100000000YCAT03","000000000000823","020","Identification Number Locations","","","","");
+  tDT[i++]=SieTitleItem("SWA7E00R11100000000YCAT04","000000000000824","020","Lift and Support Points","","","","");
+  tDT[i++]=SieTitleItem("SWA7E00R11100000000YCAT05","000000000000825","020","Body Specifications/Wheel Alignment","","","","");
+  tDT[i++]=SieTitleItem("SWA7E00R11100000000YCAT06","000000000000826","020","Exterior Parts Removal/Installation","","","","");
+  tDT[i++]=SieTitleItem("SWA7E00R11100000000YCAT07","000000000000827","020","Body Construction","","","","");
+  tDT[i++]=SieTitleItem("SWA7E00R11100000000YCAT08","000000000000828","020","Door and Bumper Reinforcement Beams","","","","");
+  tDT[i++]=SieTitleItem("SWA7E00R11100000000YCAT09","000000000000829","020","Zinc-plated Steel Plate Repair","","","","");
+  tDT[i++]=SieTitleItem("SWA7E00R11100000000YCAT10","000000000000830","020","High-tension Steel Sheet Framed Area and Precautions for Its Repair","","","","");
+  tDT[i++]=SieTitleItem("SWA7E00R21100000000YCAT01","000000000000831","020","Paint Safety Precautions","","","","");
+  tDT[i++]=SieTitleItem("SWA7E00R21100000000YCAT02","000000000000832","020","Paint General Information","","","","");
+  tDT[i++]=SieTitleItem("SWA7E00R21100000000YCAT03","000000000000833","020","Color Chart Paint Specifications","","","","");
+  tDT[i++]=SieTitleItem("SWA7E00R21100000000YCAT04","000000000000834","020","Features of Plastic Materials","","","","");
+  tDT[i++]=SieTitleItem("SWA7E00R21100000000YCAT05","000000000000835","020","Types and Materials of Exterior Plastic Parts","","","","");
+  tDT[i++]=SieTitleItem("SWA7E00R21100000000YCAT06","000000000000836","020","Soft Chipping Guard Primer Coat - General Safety Precautions","","","","");
+  tDT[i++]=SieTitleItem("SWA7E00R21100000000YCAT07","000000000000837","020","Soft Chipping Guard Primer Coat - Coating Diagram","","","","");
+  tDT[i++]=SieTitleItem("SWA7E00R31100000000YDAT01","000000000000838","020","Front Bulkhead - Mass Production Body Welding Diagram","","","","");
+  tDT[i++]=SieTitleItem("SWA7E00R31100000000YDAT02","000000000000839","020","Front Bulkhead Removal","","","","");
+  tDT[i++]=SieTitleItem("SWA7E00R31100000000YDAT03","000000000000840","020","Front Bulkhead Installation","","","","");
+  tDT[i++]=SieTitleItem("SWA7E00R31100000000YDAT04","000000000000841","020","Front Wheelhouse Lower Extension/Damper Housing - Mass Production Body Welding Diagram","","","","");
+  tDT[i++]=SieTitleItem("SWA7E00R31100000000YDAT05","000000000000842","020","Front Wheelhouse Lower Extension/Damper Housing Removal","","","","");
+  tDT[i++]=SieTitleItem("SWA7E00R31100000000YDAT06","000000000000843","020","Front Wheelhouse Lower Extension/Damper Housing Installation","","","","");
+  tDT[i++]=SieTitleItem("SWA7E00R31100000000YDAT07","000000000000844","020","Front Side Frame/Outrigger - Mass Production Body Welding Diagram","","","","");
+  tDT[i++]=SieTitleItem("SWA7E00R31100000000YDAT08","000000000000845","020","Front Side Frame/Outrigger Removal","","","","");
+  tDT[i++]=SieTitleItem("SWA7E00R31100000000YDAT09","000000000000846","020","Front Side Frame/Outrigger Installation","","","","");
+  tDT[i++]=SieTitleItem("SWA7E00R31100000000YDAT10","000000000000847","020","Front Pillar Outer Panel - Mass Production Body Welding Diagram","","","","");
+  tDT[i++]=SieTitleItem("SWA7E00R31100000000YDAT11","000000000000848","020","Front Pillar Outer Panel Removal","","","","");
+  tDT[i++]=SieTitleItem("SWA7E00R31100000000YDAT12","000000000000849","020","Front Pillar Outer Panel Installation","","","","");
+  tDT[i++]=SieTitleItem("SWA7E00R31100000000YDAT13","000000000000850","020","Side Sill Outer Panel - Mass Production Body Welding Diagram","","","","");
+  tDT[i++]=SieTitleItem("SWA7E00R31100000000YDAT14","000000000000851","020","Side Sill Outer Panel Removal","","","","");
+  tDT[i++]=SieTitleItem("SWA7E00R31100000000YDAT15","000000000000852","020","Side Sill Outer Panel Installation","","","","");
+  tDT[i++]=SieTitleItem("SWA7E00R31100000000YDAT16","000000000000853","020","Roof Panel - Mass Production Body Welding Diagram","","","","");
+  tDT[i++]=SieTitleItem("SWA7E00R31100000000YDAT17","000000000000854","020","Roof Panel Removal","","","","");
+  tDT[i++]=SieTitleItem("SWA7E00R31100000000YDAT18","000000000000855","020","Roof Panel Installation","","","","");
+  tDT[i++]=SieTitleItem("SWA7E00R31100000000YDAT19","000000000000856","020","Rear Side Outer Panel - Mass Production Body Welding Diagram","","","","");
+  tDT[i++]=SieTitleItem("SWA7E00R31100000000YDAT20","000000000000857","020","Rear Side Outer Panel Removal","","","","");
+  tDT[i++]=SieTitleItem("SWA7E00R31100000000YDAT21","000000000000858","020","Rear Side Outer Panel Installation","","","","");
+  tDT[i++]=SieTitleItem("SWA7E00R31100000000YDAT22","000000000000859","020","Rear Panel - Mass Production Body Welding Diagram","","","","");
+  tDT[i++]=SieTitleItem("SWA7E00R31100000000YDAT23","000000000000860","020","Rear Panel Removal","","","","");
+  tDT[i++]=SieTitleItem("SWA7E00R31100000000YDAT24","000000000000861","020","Rear Panel Installation","","","","");
+  tDT[i++]=SieTitleItem("SWA7E00R31100000000YDAT25","000000000000862","020","Rear Floor/Rear Frame - Mass Production Body Welding Diagram","","","","");
+  tDT[i++]=SieTitleItem("SWA7E00R31100000000YDAT26","000000000000863","020","Rear Floor/Rear Frame Removal","","","","");
+  tDT[i++]=SieTitleItem("SWA7E00R31100000000YDAT27","000000000000864","020","Rear Floor/Rear Frame Installation","","","","");
+  tDT[i++]=SieTitleItem("SWA7E00R311000K5351YDAT01","000000000000865","020","Floor Insulator Locations","","","","");
+  tDT[i++]=SieTitleItem("SWA7E00R311000K5351YDAT02","000000000000866","020","Floor Insulator Sizes","","","","");
+  tDT[i++]=SieTitleItem("SWA7E00R41100000000YDAT01","000000000000867","020","Upper Body Measuring Dimensions - Engine Compartment","","","","");
+  tDT[i++]=SieTitleItem("SWA7E00R41100000000YDAT02","000000000000868","020","Upper Body Measuring Dimensions - Engine/Transmission Mount Position","","","","");
+  tDT[i++]=SieTitleItem("SWA7E00R41100000000YDAT03","000000000000869","020","Upper Body Measuring Dimensions - Front Damper Extension Position","","","","");
+  tDT[i++]=SieTitleItem("SWA7E00R41100000000YDAT04","000000000000870","020","Upper Body Measuring Dimensions - Passenger's Compartment","","","","");
+  tDT[i++]=SieTitleItem("SWA7E00R41100000000YDAT05","000000000000871","020","Upper Body Measuring Dimensions - Rear Pillar Gutter and Rear Panel Position","","","","");
+  tDT[i++]=SieTitleItem("SWA7E00R41100000000YDAT06","000000000000872","020","Under Body Measuring Dimensions - Engine Compartment and Front Floor Under View","","","","");
+  tDT[i++]=SieTitleItem("SWA7E00R41100000000YDAT07","000000000000873","020","Under Body Measuring Dimensions - Front Floor and Rear Floor Under View","","","","");
+  tDT[i++]=SieTitleItem("SWA7E00R41100000000YDAT08","000000000000874","020","Opening Repair Chart - Windshield and Door Opening","","","","");
+  tDT[i++]=SieTitleItem("SWA7E00R41100000000YDAT09","000000000000875","020","Opening Repair Chart - Glass Roof and Tailgate Opening","","","","");
+  tDT[i++]=SieTitleItem("SWA7E00R41100000000YDAT10","000000000000876","020","Frame Repair Chart - Top View","","","","");
+  tDT[i++]=SieTitleItem("SWA7E00R41100000000YDAT11","000000000000877","020","Frame Repair Chart - Side View","","","","");
+  tDT[i++]=SieTitleItem("SWA7E00R51100000000YDAT01","000000000000878","020","External Paintwork and Panel Corrosion Check","","","","");
+  tDT[i++]=SieTitleItem("SWA7E00R51100000000YDAT02","000000000000879","020","Under Body Corrosion Check","","","","");
+  tDT[i++]=SieTitleItem("SWA7E00R51100000000YDAT03","000000000000880","020","Cross Section of Body and Sealants General Information","","","","");
+  tDT[i++]=SieTitleItem("SWA7E00R51100000000YDAT04","000000000000881","020","Cross Section of Body and Sealants - Engine Compartment, Front Wheelhouse, and Damper Housing","","","","");
+  tDT[i++]=SieTitleItem("SWA7E00R51100000000YDAT05","000000000000882","020","Cross Section of Body and Sealants - Dashboard Upper, Dashboard Lower, and Front Floor","","","","");
+  tDT[i++]=SieTitleItem("SWA7E00R51100000000YDAT06","000000000000883","020","Cross Section of Body and Sealants - Front Floor and Rear Floor","","","","");
+  tDT[i++]=SieTitleItem("SWA7E00R51100000000YDAT07","000000000000884","020","Cross Section of Body and Sealants - Rear Floor and Rear Panel","","","","");
+  tDT[i++]=SieTitleItem("SWA7E00R51100000000YDAT08","000000000000885","020","Cross Section of Body and Sealants - Rear Side Outer Panel and Rear Panel","","","","");
+  tDT[i++]=SieTitleItem("SWA7E00R51100000000YDAT09","000000000000886","020","Cross Section of Body and Sealants - Rear Wheelhouse","","","","");
+  tDT[i++]=SieTitleItem("SWA7E00R51100000000YDAT10","000000000000887","020","Cross Section of Body and Sealants - Roof Panel and Side Sill","","","","");
+  tDT[i++]=SieTitleItem("SWA7E00R51100000000YDAT11","000000000000888","020","Rust-preventive Treatments - General","","","","");
+  tDT[i++]=SieTitleItem("SWA7E00R51100000000YDAT12","000000000000889","020","Rust-preventive Treatments - Undercoating Diagram","","","","");
+  tDT[i++]=SieTitleItem("SWA7E00R51100000000YDAT13","000000000000890","020","Rust-preventive Treatments - Areas to be Covered by Internal Anti-rust Agents","","","","");
+}
+function Fsl(strKey, strSct, strSc, strSys, strComp, strSitq, strKeywords)
+{
+  CreateConditionInfo(strKey.toUpperCase(), strSct, strSc, strSys, strComp, strSitq);
+  var displayCount = SetDisplayFlag(strKeywords);
+  with(document)
+  {
+    write("<html lang=\"en\">\n");
+    write("<head>\n");
+    write("<meta name=\"author\" content=\"HONDA MOTOR Co.,Ltd.\">\n");
+    write("<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n");
+    write("<meta http-equiv=\"Content-Style-Type\" content=\"text/css\">\n");
+    write("<meta http-equiv=\"Content-Script-Type\" content=\"text/javascript\">\n");
+    write("<link href=\"../css/ViewerStyle.css\" rel=\"stylesheet\">\n");
+    write("<script>\n");
+    write("<!--\n");
+    write("function Chh(height)\n");
+    write("{\n");
+    write("   document.body.bottomMargin = 0;\n");
+    write("   setTimeout('ChhDelay('+height+')',10);\n");
+    write("}\n");
+    write("function ChhDelay(height)\n");
+    write("{\n");
+    write("   var  dataObj = document.getElementById(\"scroll\");\n");
+    write("   dataObj.style.height = height-dataObj.offsetTop;\n");
+    write("   dataObj.style.width = idTitle.clientWidth;\n");
+    write("}\n");
+    write("//-->\n");
+    write("<\/script>\n");
+    write("<\/head>\n");
+    write("<body class=\"MainBody\">\n");
+    write("<table class=\"SubTitle\" cellspacing=0 cellpadding=0 width=\"100%\">\n");
+    write("<tr>\n");
+    write("<td class=\"SubTitle-L\" nowrap></td>\n");
+    write("<td class=\"SubTitle\" nowrap><b>Shop Manual Search Result</b></td>\n");
+    write("<td class=\"SubTitleComment\" nowrap></td>\n");
+    write("<td class=\"SubTitle-R\" nowrap>\n");
+    write("<table width=\"100%\" height=\"100%\" cellspacing=\"0\" cellpadding=\"0\"><tr><td valign=\"middle\">\n");
+    write("<a href=\"#\" onClick=\"javascript:parent.Cts('000000000002055','000?RE6,2007');\"><img src=\"../img/ABBREVIATION.PNG\" alt=\"Abbreviation\" border=\"0\"></a>\n");
+    write("</td></tr></table>\n");
+    write("</td>\n");
+    write("</tr>\n");
+    write("</table>\n");
+  }
+  document.write("<div class=\"TableLayout\" style=\"overflow:auto;width:100%;display:block\">");
+  document.write("<table id=\"idTitle\" cellspacing=\"1\" width=\"100%\"><tr class=\"TableColumnTitle\" style=\"color:#FFFFFF;background-color:#999999;\">" +
+              "<td width=\"30\"></td>" +
+              "<td align=\"center\" style=\"font-size:medium\">Title</td>");
+  document.write("<td width=\"15\"></td></tr></table></div>");
+  document.write("<div class=\"TableLayout\" id=\"scroll\" style=\"overflow:auto;width:100%;height:5;display:block\">");
+  document.write("<table border=\"0\" cellpadding=\"0\" cellspacing=\"1\" width=\"100%\" style=\"table-layout:fixed\">");
+  if(displayCount == 0) {
+    document.write("<tr><td>There is no Body Repair Manual to apply</td></tr>");
+  }
+  else {
+    for (i=0; i < tDT.length; ++i) {
+      if (tDT[i].Display == true) {
+        strEventClick = "javascript:parent.Cts('" + tDT[i].contentsNum + "','000?RE6,2007')";
+          strText = tDT[i].Title;
+          if (tDT[i].ScSys.length != 0) {
+             strText += "(" + tDT[i].ScSys + ")";
+          }
+          if (tDT[i].Dgc.length != 0) {
+            strText += "(" + tDT[i].Dgc + ")";
+          }
+          document.write("<tr class=\"TableData\" style=\"padding-bottom:3px;\"><td width=\"30\">\n");
+          document.write("<span onClick=\"" + strEventClick + "\">" + 
+              "<img src=\"../img/" + tDT[i].Symbol + ".PNG\"" + "\" style=\"cursor:hand;\"></span></td>\n");
+          document.write("<td valign=\"top\">" +
+              "<a href=\"" + strEventClick + "\" style=\"font-size:small;\">" + strText + "</a></td></tr>\n");
+      }
+    }
+  }
+  with(document)
+  {
+    write("</table></div>");
+    write("</body>\n");
+    write("</html>\n");
+  }
+}
+function CreateList()
+{
+  var nNest = 1;
+  var strEventClick, strText, strIMG;
+  var i, j, k, n;
+  if (typeof(SieTitleList) != "function") {
+    return;
+  }
+  tDT.length = 0;
+  SieTitleList();
+}
+//-->
+</script>
+</head>
+<body id="TreeBody" topmargin="10" onLoad="javascript:parent.Old(this)">
+  <div><script>CreateList();</script></div>
+</body>
+</html>

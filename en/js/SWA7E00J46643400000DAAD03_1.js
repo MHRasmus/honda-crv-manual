@@ -1,0 +1,34 @@
+with(document) {
+write("<v:group id=\"group3\"  name=\"PrtGrpId\" class=\"drag\" style=\"position:relative; width:950px; height:543px;\" coordsize=\"950,543\">");
+write("<v:rect id=\"rect3\" name=\"PrtRectId\"class=\"drag\"  style=\"width:950px;height:543px;\">");
+write("<img id=\"img3\" name=\"PrtImgId\" src=\"../img/SWA7E00J46643400000DAAD03.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:543px;border-color:#ffffff\">");
+write("<p id=\"p3_1\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:585px;top:18px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>IGNITION KEY SWITCH<br><a href=\"javascript:CtsProc('0','000000000000578','i000')\"></b>Test,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p3_2\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:735px;top:109px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>LEFT REAR DOOR LOCK<br>ACTUATOR/KNOB SWITCH<br><a href=\"javascript:CtsProc('0','000000000000543','i000')\"></b>Actuator Test,<br></a><br><a href=\"javascript:CtsProc('0','000000000000544','i000')\">Knob Switch Test,<br></a><br></nobr>");
+write("</p>");
+write("<p id=\"p3_3\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:709px;top:380px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>TAILGATE RELEASE ACTUATOR<br><a href=\"javascript:CtsProc('0','000000000000550','i000')\"></b>Test,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p3_4\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:709px;top:414px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>TAILGATE LATCH SWITCH<br><a href=\"javascript:CtsProc('0','000000000000420','i000')\"></b>Test,</a><br><a href=\"javascript:CtsProc('0','000000000000302','i000')\">Replacement,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p3_5\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:534px;top:475px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>LEFT REAR DOOR SWITCH<br></b></nobr>");
+write("</p>");
+write("<p id=\"p3_6\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:277px;top:379px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>DRIVER'S DOOR<br>SWITCH<br></b></nobr>");
+write("</p>");
+write("<p id=\"p3_7\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:106px;top:437px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>DRIVER'S DOOR LOCK ACTUATOR/<br>KNOB SWITCH/KEY CYLINDER SWITCH<br><a href=\"javascript:CtsProc('0','000000000000543','i000')\"></b>Actuator Test,</a><br><a href=\"javascript:CtsProc('0','000000000000544','i000')\">Knob Switch Test,</a><br><a href=\"javascript:CtsProc('0','000000000000542','i000')\">Key Cylinder Switch Test,</a><br><a href=\"javascript:CtsProc('0','000000000000242','i000')\">Replacement,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p3_8\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:17px;top:303px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>DRIVER'S DOOR LOCK SWITCH<br>(Built into the power<br>window master switch)<br><a href=\"javascript:CtsProc('0','000000000000547','i000')\"></b>MICU Input Test,<br></a><br><a href=\"javascript:CtsProc('0','000000000000553','i000')\">Test/Replacement,<br></a><br></nobr>");
+write("</p>");
+write("<p id=\"p3_9\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:657px;top:65px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>DRIVER'S DOOR KEY CYLINDER<br></b></nobr>");
+write("</p>");
+write("</v:rect>");
+write("</v:group>");
+}

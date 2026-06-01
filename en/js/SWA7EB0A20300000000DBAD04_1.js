@@ -1,0 +1,31 @@
+with(document) {
+write("<v:group id=\"group4\"  name=\"PrtGrpId\" class=\"drag\" style=\"position:relative; width:950px; height:415px;\" coordsize=\"950,415\">");
+write("<v:rect id=\"rect4\" name=\"PrtRectId\"class=\"drag\"  style=\"width:950px;height:415px;\">");
+write("<img id=\"img4\" name=\"PrtImgId\" src=\"../img/SWA7EB0A20300000000DBAD04.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:415px;border-color:#ffffff\">");
+write("<p id=\"p4_1\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:45px;top:29px;font-weight:normal;font-size:7.4pt;\">");
+write("<nobr><b>A/T CLUTCH<br>PRESSURE<br>CONTROL<br>SOLENOID VALVE<br>A (1) <br></b></nobr>");
+write("</p>");
+write("<p id=\"p4_2\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:242px;top:16px;font-weight:normal;font-size:7.4pt;\">");
+write("<nobr><b>3RD<br>CLUTCH<br>TRANSMISSION<br>FLUID<br>PRESSURE SWITCH<br>(2) <br></b></nobr>");
+write("</p>");
+write("<p id=\"p4_3\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:431px;top:29px;font-weight:normal;font-size:7.4pt;\">");
+write("<nobr><b>A/T CLUTCH<br>PRESSURE<br>CONTROL<br>SOLENOID VALVE<br>B (3) <br></b></nobr>");
+write("</p>");
+write("<p id=\"p4_4\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:621px;top:67px;font-weight:normal;font-size:7.4pt;\">");
+write("<nobr><b>8P CONNECTOR<br>(4) <br></b></nobr>");
+write("</p>");
+write("<p id=\"p4_5\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:815px;top:67px;font-weight:normal;font-size:7.4pt;\">");
+write("<nobr><b>ECT SENSOR<br>2 (5)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p4_6\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:48px;top:167px;font-weight:normal;font-size:7.4pt;\">");
+write("<nobr><b>A/T CLUTCH<br>PRESSURE<br>CONTROL<br>SOLENOID VALVE<br>C (6) <br></b></nobr>");
+write("</p>");
+write("<p id=\"p4_7\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:258px;top:205px;font-weight:normal;font-size:7.4pt;\">");
+write("<nobr><b>CKP SENSOR<br>(7)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p4_8\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:0px;top:341px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b></b>NOTE:<br>· Connector with male terminals (double outline): view from terminal side<br>· Connector with female terminals (single outline): view from wire side<br></nobr>");
+write("</p>");
+write("</v:rect>");
+write("</v:group>");
+}

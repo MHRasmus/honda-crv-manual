@@ -1,0 +1,37 @@
+with(document) {
+write("<v:group id=\"group2\"  name=\"PrtGrpId\" class=\"drag\" style=\"position:relative; width:475px; height:545px;\" coordsize=\"475,545\">");
+write("<v:rect id=\"rect2\" name=\"PrtRectId\"class=\"drag\"  style=\"width:475px;height:545px;\">");
+write("<img id=\"img2\" name=\"PrtImgId\" src=\"../img/SWA7E00K763000Y1280FAAD03.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:475px;height:545px;border-color:#ffffff\">");
+write("<p id=\"p2_1\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:28px;top:29px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>UNDER-DASH FUSE/RELAY BOX CONNECTOR S (20P)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p2_2\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:130px;top:52px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b></b>Wire side of female terminals<br></nobr>");
+write("</p>");
+write("<p id=\"p2_3\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:63px;top:475px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>COMBINATION LIGHT SWITCH 12P CONNECTOR<br></b></nobr>");
+write("</p>");
+write("<p id=\"p2_4\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:130px;top:499px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b></b>Wire side of female terminals<br></nobr>");
+write("</p>");
+write("<p id=\"p2_5\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:144px;top:80px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>GND (BLK)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p2_6\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:86px;top:438px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>GND (BLK)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p2_7\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:333px;top:186px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>TURN SW<br>L (LT GRN)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p2_8\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:187px;top:308px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>TURN SW<br>L (LT GRN)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p2_9\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:226px;top:186px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>TURN SW<br>R (BRN)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p2_10\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:313px;top:315px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>TURN SW<br>R (BRN)<br></b></nobr>");
+write("</p>");
+write("</v:rect>");
+write("</v:group>");
+}

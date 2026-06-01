@@ -1,0 +1,34 @@
+with(document) {
+write("<v:group id=\"group1\"  name=\"PrtGrpId\" class=\"drag\" style=\"position:relative; width:950px; height:879px;\" coordsize=\"950,879\">");
+write("<v:rect id=\"rect1\" name=\"PrtRectId\"class=\"drag\"  style=\"width:950px;height:879px;\">");
+write("<img id=\"img1\" name=\"PrtImgId\" src=\"../img/SWA7E58G24100000000DAAD01.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:879px;border-color:#ffffff\">");
+write("<p id=\"p1_1\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:674px;top:528px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>RECEIVER/DRYER DESICCANT<br><a href=\"javascript:CtsProc('0','000000000000090','i000')\"></b>Replacement,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_2\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:578px;top:584px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>A/C CONDENSER<br><a href=\"javascript:CtsProc('0','000000000000095','i000')\"></b>Replacement,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_3\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:428px;top:633px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>A/C COMPRESSOR (R20A1 and R20A2 engines)<br><a href=\"javascript:CtsProc('0','000000000001611','i000')\"></b>Replacement,</a><br><a href=\"javascript:CtsProc('0','000000000001415','i000')\">Clutch Check,</a><br><a href=\"javascript:CtsProc('0','000000000001416','i000')\">Clutch Overhaul,</a><br><a href=\"javascript:CtsProc('0','000000000001415','i000')\">Thermal Protector Check,</a><br><a href=\"javascript:CtsProc('0','000000000001418','i000')\">Thermal Protector Replacement,</a><br><a href=\"javascript:CtsProc('0','000000000001848','i000')\">Relief Valve Replacement,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_4\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:493px;top:64px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>EVAPORATOR CORE<br>(Located-in the heater unit)<br><a href=\"javascript:CtsProc('0','000000000000096','i000')\"></b>Replacement,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_5\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:180px;top:53px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>SERVICE VALVE<br>(HIGH-PRESSURE SIDE)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_6\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:339px;top:18px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>SERVICE VALVE<br>(LOW-PRESSURE SIDE)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_7\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:428px;top:738px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>A/C COMPRESSOR (K24Z1 engine)<br><a href=\"javascript:CtsProc('0','000000000001844','i000')\"></b>Replacement,</a><br><a href=\"javascript:CtsProc('0','000000000001845','i000')\">Clutch Check,</a><br><a href=\"javascript:CtsProc('0','000000000001846','i000')\">Clutch Overhaul,</a><br><a href=\"javascript:CtsProc('0','000000000001845','i000')\">Thermal Protector Check,</a><br><a href=\"javascript:CtsProc('0','000000000001417','i000')\">Thermal Protector Replacement,</a><br><a href=\"javascript:CtsProc('0','000000000001847','i000')\">Relief Valve Replacement,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_8\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:161px;top:612px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>SIGHT GLASS<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_9\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:1px;top:847px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b></b>LHD type is shown, RHD type is similar.<br></nobr>");
+write("</p>");
+write("</v:rect>");
+write("</v:group>");
+}

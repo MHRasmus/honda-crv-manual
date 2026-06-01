@@ -1,0 +1,37 @@
+with(document) {
+write("<v:group id=\"group1\"  name=\"PrtGrpId\" class=\"drag\" style=\"position:relative; width:950px; height:591px;\" coordsize=\"950,591\">");
+write("<v:rect id=\"rect1\" name=\"PrtRectId\"class=\"drag\"  style=\"width:950px;height:591px;\">");
+write("<img id=\"img1\" name=\"PrtImgId\" src=\"../img/SWA7E50E16236500000LDAD01.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:591px;border-color:#ffffff\">");
+write("<p id=\"p1_1\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:770px;top:346px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>SET RING<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_2\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:157px;top:34px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>INTERMEDIATE SHAFT RING<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_3\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:73px;top:242px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>INTERMEDIATE SHAFT<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_4\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:332px;top:426px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>INTERMEDIATE <br>SHAFT BEARING<br></b>Replace.<br></nobr>");
+write("</p>");
+write("<p id=\"p1_5\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:227px;top:352px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>INTERNAL SNAP RING<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_6\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:681px;top:533px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>OUTER SEAL<br></b>Replace.<br></nobr>");
+write("</p>");
+write("<p id=\"p1_7\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:564px;top:475px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>EXTERNAL <br>SNAP RING<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_8\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:549px;top:16px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>FLANGE BOLTS<br>10 x 1.25 mm<br>39 N·m <br>(4.0 kgf·m, 29 lbf·ft)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_9\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:770px;top:292px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b></b>Pack the interior <br>of the outer seal.<br></nobr>");
+write("</p>");
+write("<p id=\"p1_10\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:303px;top:115px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>BEARING SUPPORT RING<br></b></nobr>");
+write("</p>");
+write("</v:rect>");
+write("</v:group>");
+}

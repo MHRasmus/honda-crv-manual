@@ -1,0 +1,34 @@
+with(document) {
+write("<v:group id=\"group7\"  name=\"PrtGrpId\" class=\"drag\" style=\"position:relative; width:950px; height:351px;\" coordsize=\"950,351\">");
+write("<v:rect id=\"rect7\" name=\"PrtRectId\"class=\"drag\"  style=\"width:950px;height:351px;\">");
+write("<img id=\"img7\" name=\"PrtImgId\" src=\"../img/SWA7E12E44300000000CAAD21.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:351px;border-color:#ffffff\">");
+write("<p id=\"p7_1\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:304px;top:16px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>ORIFICES<br></b></nobr>");
+write("</p>");
+write("<p id=\"p7_2\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:173px;top:31px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>CLUTCH PISTON<br></b></nobr>");
+write("</p>");
+write("<p id=\"p7_3\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:355px;top:37px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>CHECK VALVE E<br></b></nobr>");
+write("</p>");
+write("<p id=\"p7_4\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:403px;top:59px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>FRONT OIL PUMP<br></b></nobr>");
+write("</p>");
+write("<p id=\"p7_5\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:554px;top:44px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>REAR OIL PUMP<br></b></nobr>");
+write("</p>");
+write("<p id=\"p7_6\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:659px;top:219px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>OIL STRAINER<br></b></nobr>");
+write("</p>");
+write("<p id=\"p7_7\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:354px;top:319px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>CHECK VALVE B<br></b></nobr>");
+write("</p>");
+write("<p id=\"p7_8\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:498px;top:319px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>CHECK VALVE C<br></b></nobr>");
+write("</p>");
+write("<p id=\"p7_9\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:171px;top:304px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>PISTON COMPARTMENT<br></b></nobr>");
+write("</p>");
+write("</v:rect>");
+write("</v:group>");
+}

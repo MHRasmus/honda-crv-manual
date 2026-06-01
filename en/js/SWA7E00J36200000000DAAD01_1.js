@@ -1,0 +1,37 @@
+with(document) {
+write("<v:group id=\"group1\"  name=\"PrtGrpId\" class=\"drag\" style=\"position:relative; width:950px; height:1039px;\" coordsize=\"950,1039\">");
+write("<v:rect id=\"rect1\" name=\"PrtRectId\"class=\"drag\"  style=\"width:950px;height:1039px;\">");
+write("<img id=\"img1\" name=\"PrtImgId\" src=\"../img/SWA7E00J36200000000DAAD01.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:1039px;border-color:#ffffff\">");
+write("<p id=\"p1_1\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:542px;top:84px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>ECM/PCM<br>(Vehicle Speed Pulse)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_2\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:759px;top:134px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>GPS ANTENNA<br><a href=\"javascript:CtsProc('0','000000000000486','i000')\"></b>Removal/Installation,<br></a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_3\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:453px;top:14px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>NAVIGATION/<br>HFT MICROPHONE<br>(Inside the map light)<br><a href=\"javascript:CtsProc('0','000000000000487','i000')\"></b>Removal/Installation,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_4\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:690px;top:894px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>NAVIGATION UNIT<br><a href=\"javascript:CtsProc('0','000000000000485','i000')\"></b>Removal/Installation,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_5\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:345px;top:980px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>VOICE CONTROL SWITCH<br><a href=\"javascript:CtsProc('0','000000000000491','i000')\"></b>Test,</a><br><a href=\"javascript:CtsProc('0','000000000000492','i000')\">Replacement,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_6\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:109px;top:980px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>REAR VIEW CAMERA<br><a href=\"javascript:CtsProc('0','000000000000487','i000')\"></b>Removal/Installation,<br></a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_7\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:732px;top:373px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>ANTENNA LEAD<br>(AM/FM/RDS-TMC)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_8\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:779px;top:428px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>ANTENNA SUBLEAD<br>(AM/FM/RDS-TMC)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_9\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:15px;top:604px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>WINDOW ANTENNA<br>(RDS-TMC)<br><a href=\"javascript:CtsProc('0','000000000000493','i000')\"></b>Repair,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_10\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:23px;top:685px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>TAILGATE ANTENNA LEAD<br>(RDS-TMC)<br></b></nobr>");
+write("</p>");
+write("</v:rect>");
+write("</v:group>");
+}

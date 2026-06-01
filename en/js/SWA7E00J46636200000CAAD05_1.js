@@ -1,0 +1,34 @@
+with(document) {
+write("<v:group id=\"group1\"  name=\"PrtGrpId\" class=\"drag\" style=\"position:relative; width:950px; height:735px;\" coordsize=\"950,735\">");
+write("<v:rect id=\"rect1\" name=\"PrtRectId\"class=\"drag\"  style=\"width:950px;height:735px;\">");
+write("<img id=\"img1\" name=\"PrtImgId\" src=\"../img/SWA7E00J46636200000CAAD05.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:735px;border-color:#ffffff\">");
+write("<p id=\"p1_1\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:107px;top:121px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>Mechanical key (Without keyless)<br>(Including transponder)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_2\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:408px;top:121px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>Immobilizer key<br>(With keyless)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_3\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:627px;top:326px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>Mechanical key<br>(Including transponder)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_4\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:780px;top:279px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>Transmitter<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_5\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:92px;top:663px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>Steering lock assembly<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_6\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:370px;top:647px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>Immobilizer-keyless<br>control unit<br>(Built-in receiver)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_7\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:710px;top:653px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>ECM/PCM<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_8\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:160px;top:406px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>MICU<br>(Imoes circuit)*<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_9\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:22px;top:701px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>*: KG, KE<br></b></nobr>");
+write("</p>");
+write("</v:rect>");
+write("</v:group>");
+}

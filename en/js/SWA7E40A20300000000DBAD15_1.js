@@ -1,0 +1,31 @@
+with(document) {
+write("<v:group id=\"group16\"  name=\"PrtGrpId\" class=\"drag\" style=\"position:relative; width:950px; height:543px;\" coordsize=\"950,543\">");
+write("<v:rect id=\"rect16\" name=\"PrtRectId\"class=\"drag\"  style=\"width:950px;height:543px;\">");
+write("<img id=\"img16\" name=\"PrtImgId\" src=\"../img/SWA7E40A20300000000DBAD15.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:543px;border-color:#ffffff\">");
+write("<p id=\"p16_1\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:542px;top:512px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>2<br></b></nobr>");
+write("</p>");
+write("<p id=\"p16_2\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:486px;top:511px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>3<br></b></nobr>");
+write("</p>");
+write("<p id=\"p16_3\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:384px;top:512px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>4<br></b></nobr>");
+write("</p>");
+write("<p id=\"p16_4\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:310px;top:512px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>5<br></b></nobr>");
+write("</p>");
+write("<p id=\"p16_5\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:728px;top:427px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>1<br></b></nobr>");
+write("</p>");
+write("<p id=\"p16_6\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:554px;top:16px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>DASHBOARD<br>WIRE HARNESS<br></b></nobr>");
+write("</p>");
+write("<p id=\"p16_7\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:766px;top:102px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>JUNCTION<br>BOX<br></b></nobr>");
+write("</p>");
+write("<p id=\"p16_8\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:681px;top:464px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>ENGINE<br>COMPARTMENT<br>WIRE HARNESS<br></b></nobr>");
+write("</p>");
+write("</v:rect>");
+write("</v:group>");
+}

@@ -1,0 +1,34 @@
+with(document) {
+write("<v:group id=\"group2\"  name=\"PrtGrpId\" class=\"drag\" style=\"position:relative; width:950px; height:831px;\" coordsize=\"950,831\">");
+write("<v:rect id=\"rect2\" name=\"PrtRectId\"class=\"drag\"  style=\"width:950px;height:831px;\">");
+write("<img id=\"img2\" name=\"PrtImgId\" src=\"../img/SWA7E00R31100000000YDAD37.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:831px;border-color:#ffffff\">");
+write("<p id=\"p2_1\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:23px;top:110px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>SIDE SILL<br>REINFORCEMENT<br></b></nobr>");
+write("</p>");
+write("<p id=\"p2_2\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:115px;top:39px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>FRONT INNER<br>LOWER PILLAR<br></b></nobr>");
+write("</p>");
+write("<p id=\"p2_3\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:686px;top:252px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>CENTER PILLAR<br>INNER<br></b></nobr>");
+write("</p>");
+write("<p id=\"p2_4\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:138px;top:610px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>FRONT PILLAR<br>LOWER STIFFENER<br></b></nobr>");
+write("</p>");
+write("<p id=\"p2_5\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:278px;top:784px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>CENTER PILLAR<br>STIFFENER<br></b></nobr>");
+write("</p>");
+write("<p id=\"p2_6\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:786px;top:787px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>REAR WHEEL ARCH<br>EXTENSION<br></b></nobr>");
+write("</p>");
+write("<p id=\"p2_7\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:493px;top:743px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>SIDE SILL REINFORCEMENT<br></b></nobr>");
+write("</p>");
+write("<p id=\"p2_8\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:681px;top:413px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>REAR JACK UP BASE<br></b></nobr>");
+write("</p>");
+write("<p id=\"p2_9\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:417px;top:784px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>CENTER PILLAR INNER<br>SEPARATOR<br></b></nobr>");
+write("</p>");
+write("</v:rect>");
+write("</v:group>");
+}

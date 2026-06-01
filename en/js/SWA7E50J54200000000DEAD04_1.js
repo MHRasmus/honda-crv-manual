@@ -1,0 +1,34 @@
+with(document) {
+write("<v:group id=\"group3\"  name=\"PrtGrpId\" class=\"drag\" style=\"position:relative; width:950px; height:863px;\" coordsize=\"950,863\">");
+write("<v:rect id=\"rect3\" name=\"PrtRectId\"class=\"drag\"  style=\"width:950px;height:863px;\">");
+write("<img id=\"img3\" name=\"PrtImgId\" src=\"../img/SWA7E50J54200000000DEAD04.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:863px;border-color:#ffffff\">");
+write("<p id=\"p3_1\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:108px;top:16px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>SECURITY HORN RELAY<br>(With security)<br></b>Wire colors: WHT, PUR,<br>ORN and WHT<br></nobr>");
+write("</p>");
+write("<p id=\"p3_2\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:108px;top:79px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>DAYTIME RUNNING LIGHTS RELAY<br>(KS model)<br></b>Wire colors: LT GRN, BLU,<br>GRY, RED and BRN<br></nobr>");
+write("</p>");
+write("<p id=\"p3_3\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:505px;top:622px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>ADAPTIVE FRONT LIGHTING<br>CONTROL UNIT/<br>HEADLIGHT AUTO<br>LEVELING CONTROL UNIT<br></b></nobr>");
+write("</p>");
+write("<p id=\"p3_4\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:745px;top:718px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>EPS CONTROL UNIT<br></b></nobr>");
+write("</p>");
+write("<p id=\"p3_5\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:131px;top:690px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>CIGARETTE LIGHTER RELAY/<br>FRONT ACCESORY POWER SOCKET RELAY<br></b>Wire colors: ORN, WHT,<br>BLK and WHT<br></nobr>");
+write("</p>");
+write("<p id=\"p3_6\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:129px;top:755px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>CARGO AREA ACCESORY POWER SOCKET RELAY<br></b>Wire colors: YEL, LT BLU,<br>BLK and WHT<br></nobr>");
+write("</p>");
+write("<p id=\"p3_7\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:0px;top:832px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b></b>LHD type is shown, RHD type is similar.<br></nobr>");
+write("</p>");
+write("<p id=\"p3_8\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:633px;top:42px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>FRONT FOG LIGHT RELAY<br></b>Wire colors: PNK, WHT,<br>PUR and WHT<br></nobr>");
+write("</p>");
+write("<p id=\"p3_9\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:633px;top:92px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>CONSOLE ACCESORY<br>POWER SOCKET RELAY<br></b>Wire colors: GRN, RED,<br>BLK and WHT<br></nobr>");
+write("</p>");
+write("</v:rect>");
+write("</v:group>");
+}

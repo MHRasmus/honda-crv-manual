@@ -1,0 +1,34 @@
+with(document) {
+write("<v:group id=\"group1\"  name=\"PrtGrpId\" class=\"drag\" style=\"position:relative; width:950px; height:1087px;\" coordsize=\"950,1087\">");
+write("<v:rect id=\"rect1\" name=\"PrtRectId\"class=\"drag\"  style=\"width:950px;height:1087px;\">");
+write("<img id=\"img1\" name=\"PrtImgId\" src=\"../img/SWA7E00J46170400000DAAD01.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:1087px;border-color:#ffffff\">");
+write("<p id=\"p1_1\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:746px;top:16px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>DRIVER'S SEAT<br>HEATER RELAY(HIGH)<br></b>Wire colors: BLU, ORN,<br>LT BLU and BLK<br><a href=\"javascript:CtsProc('0','000000000003018','i000')\">Test,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_2\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:455px;top:862px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>FRONT PASSENGER'S SEAT<br>HEATER RELAY (LOW)<br></b>Wire colors: BRN, BLU,<br>BLK, BLK and LT GRN<br><a href=\"javascript:CtsProc('0','000000000003018','i000')\">Test,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_3\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:20px;top:937px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>FRONT PASSENGER'S SEAT<br>HEATER RELAY (HIGH)<br></b>Wire colors: BLU, ORN,<br>LT BLU and BLK<br><a href=\"javascript:CtsProc('0','000000000003018','i000')\">Test,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_4\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:17px;top:434px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>DRIVER'S<br>SEAT-BACK HEATER<br><a href=\"javascript:CtsProc('0','000000000003012','i000')\"></b>Test,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_5\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:596px;top:794px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>DRIVER'S SEAT<br>CUSHION HEATER<br><a href=\"javascript:CtsProc('0','000000000003012','i000')\"></b>Test,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_6\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:50px;top:687px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>FRONT PASSENGER'S<br>SEAT CUSHION HEATER<br><a href=\"javascript:CtsProc('0','000000000003012','i000')\"></b>Test,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_7\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:1px;top:1056px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b></b>LHD type is shown, RHD type is similar.<br></nobr>");
+write("</p>");
+write("<p id=\"p1_8\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:762px;top:291px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>DRIVER'S SEAT<br>HEATER RELAY (LOW)<br></b>Wire colors: BRN, BLU,<br>BLK, BLK and LT GRN<br><a href=\"javascript:CtsProc('0','000000000003018','i000')\">Test,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_9\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:17px;top:541px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>FRONT PASSENGER'S<br>SEAT SEAT-BACK HEATER<br><a href=\"javascript:CtsProc('0','000000000003012','i000')\"></b>Test,</a><br></nobr>");
+write("</p>");
+write("</v:rect>");
+write("</v:group>");
+}

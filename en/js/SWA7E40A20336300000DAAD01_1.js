@@ -1,0 +1,37 @@
+with(document) {
+write("<v:group id=\"group1\"  name=\"PrtGrpId\" class=\"drag\" style=\"position:relative; width:950px; height:591px;\" coordsize=\"950,591\">");
+write("<v:rect id=\"rect1\" name=\"PrtRectId\"class=\"drag\"  style=\"width:950px;height:591px;\">");
+write("<img id=\"img1\" name=\"PrtImgId\" src=\"../img/SWA7E40A20336300000DAAD01.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:591px;border-color:#ffffff\">");
+write("<p id=\"p1_1\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:0px;top:560px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b></b>*: This illustration shows LHD model.<br></nobr>");
+write("</p>");
+write("<p id=\"p1_2\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:500px;top:17px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>TURBOCHARGER BOOST CONTROL<br>SOLENOID VALVE <br><a href=\"javascript:CtsProc('0','000000000002300','i000')\"></b>Replacement,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_3\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:395px;top:515px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>INTAKE MANIFOLD<br>RUNNER CONTROL <br>(IMRC) POSITION SENSOR<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_4\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:712px;top:411px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>RESONATOR<br><a href=\"javascript:CtsProc('0','000000000002299','i000')\"></b>Replacement,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_5\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:120px;top:472px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>INTAKE MANIFOLD RUNNER CONTROL <br>(IMRC) VALVE<br><a href=\"javascript:CtsProc('0','000000000002295','i000')\"></b>Replacement,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_6\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:0px;top:412px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>INTAKE MANIFOLD RUNNER<br>CONTROL (IMRC) SOLENOID VALVE<br><a href=\"javascript:CtsProc('0','000000000002294','i000')\"></b>Replacement,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_7\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:577px;top:475px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>INTAKE SHUTTER VALVE (ISV) (with DPF system)<br><a href=\"javascript:CtsProc('0','000000000002298','i000')\"></b>Cleaning,</a><br><a href=\"javascript:CtsProc('0','000000000002297','i000')\">Removal/Installation,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_8\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:795px;top:189px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>UNDER-HOOD<br>FUSE/RELAY BOX<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_9\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:772px;top:47px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>AIR CLEANER<br><a href=\"javascript:CtsProc('0','000000000002292','i000')\"></b>Removal/Installation,<br></a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_10\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:772px;top:91px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>AIR CLEANER ELEMENT<br><a href=\"javascript:CtsProc('0','000000000002293','i000')\"></b>Inspection/Replacement,<br></a><br></nobr>");
+write("</p>");
+write("</v:rect>");
+write("</v:group>");
+}

@@ -1,0 +1,37 @@
+with(document) {
+write("<v:group id=\"group4\"  name=\"PrtGrpId\" class=\"drag\" style=\"position:relative; width:950px; height:719px;\" coordsize=\"950,719\">");
+write("<v:rect id=\"rect4\" name=\"PrtRectId\"class=\"drag\"  style=\"width:950px;height:719px;\">");
+write("<img id=\"img4\" name=\"PrtImgId\" src=\"../img/SWA7EC0A20300000000DBAD04.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:719px;border-color:#ffffff\">");
+write("<p id=\"p4_1\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:473px;top:674px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>1<br></b></nobr>");
+write("</p>");
+write("<p id=\"p4_2\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:307px;top:661px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>2<br></b></nobr>");
+write("</p>");
+write("<p id=\"p4_3\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:245px;top:649px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>3<br></b></nobr>");
+write("</p>");
+write("<p id=\"p4_4\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:197px;top:635px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>4<br></b></nobr>");
+write("</p>");
+write("<p id=\"p4_5\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:154px;top:623px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>5<br></b></nobr>");
+write("</p>");
+write("<p id=\"p4_6\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:112px;top:603px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>6<br></b></nobr>");
+write("</p>");
+write("<p id=\"p4_7\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:507px;top:16px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>ENGINE WIRE HARNESS<br></b></nobr>");
+write("</p>");
+write("<p id=\"p4_8\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:735px;top:385px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>ENGINE COMPARTMENT<br>WIRE HARNESS<br></b></nobr>");
+write("</p>");
+write("<p id=\"p4_9\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:510px;top:673px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>FRONT END ENGINE COMPARTMENT <br>WIRE HARNESS<br></b></nobr>");
+write("</p>");
+write("<p id=\"p4_10\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:31px;top:541px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>STARTER<br>SUBHARNESS<br></b></nobr>");
+write("</p>");
+write("</v:rect>");
+write("</v:group>");
+}

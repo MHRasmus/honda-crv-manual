@@ -1,0 +1,31 @@
+with(document) {
+write("<v:group id=\"group5\"  name=\"PrtGrpId\" class=\"drag\" style=\"position:relative; width:950px; height:591px;\" coordsize=\"950,591\">");
+write("<v:rect id=\"rect5\" name=\"PrtRectId\"class=\"drag\"  style=\"width:950px;height:591px;\">");
+write("<img id=\"img5\" name=\"PrtImgId\" src=\"../img/SWA7E12E44300000000CAAD12.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:591px;border-color:#ffffff\">");
+write("<p id=\"p5_1\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:548px;top:16px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>REAR OIL PUMP COVER<br></b></nobr>");
+write("</p>");
+write("<p id=\"p5_2\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:427px;top:47px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>REAR OIL PUMP<br></b></nobr>");
+write("</p>");
+write("<p id=\"p5_3\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:266px;top:77px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>FRONT OIL PUMP<br></b></nobr>");
+write("</p>");
+write("<p id=\"p5_4\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:150px;top:147px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>CLUTCH PISTON<br></b></nobr>");
+write("</p>");
+write("<p id=\"p5_5\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:348px;top:364px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>O-RING<br></b></nobr>");
+write("</p>");
+write("<p id=\"p5_6\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:595px;top:308px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>OIL PUMP BODY<br>ASSEMBLY<br></b></nobr>");
+write("</p>");
+write("<p id=\"p5_7\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:579px;top:560px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>REAR OIL PUMP<br></b></nobr>");
+write("</p>");
+write("<p id=\"p5_8\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:286px;top:559px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>FRONT OIL PUMP<br></b></nobr>");
+write("</p>");
+write("</v:rect>");
+write("</v:group>");
+}

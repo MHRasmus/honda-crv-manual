@@ -1,0 +1,67 @@
+Honda CR-V 2007-2008 Workshop Manual (RE1-RE6)
+=================================================
+Extracted from VirtualBox VM - works without any software installation.
+
+QUICK START
+-----------
+Option A (Recommended - any device with a browser):
+  Double-click START_MANUAL_SERVER.bat
+  This starts a local web server and opens the manual in your browser.
+  Requires Python (free, from python.org). Python is usually pre-installed on Mac/Linux.
+
+Option B (Windows only - Firefox/Edge):
+  Open HONDAESM.HTML directly in Firefox or Microsoft Edge.
+  Chrome may have issues with local files in frames.
+
+Option C (All devices - including mobile/tablet):
+  Upload this folder to a web hosting service (GitHub Pages, Netlify, etc.)
+  Then access it from any device via URL.
+
+CONTENTS
+--------
+  HONDAESM.HTML         - Main manual (open this in browser)
+  en/                   - English manual content (~300MB, 43,000+ pages)
+    html/               - Manual pages (numbered + TOC files)
+    img/                - Diagrams and illustrations
+    tn/                 - Thumbnail images
+    css/                - Stylesheets
+    js/                 - Scripts
+  _COM/                 - Common interface files
+  Wiring diagrams/      - 66 PDF wiring diagrams (ABS, AC, Charging, etc.)
+  logo.png              - Honda ESM logo
+
+MODELS COVERED
+--------------
+  Year 2007: RE1, RE2, RE3, RE4, RE5, RE6
+  Year 2008: RE1, RE2, RE3, RE4
+  (RE6 = Diesel model)
+
+HOW TO USE THE MANUAL
+---------------------
+1. Open HONDAESM.HTML in your browser
+2. Select "English" language
+3. Select model year (2007 or 2008)
+4. Select model code (RE1-RE6)
+5. Choose "Shop Manual" (SM) or "Body Repair Manual" (BRM)
+6. Navigate sections using the left panel
+
+WIRING DIAGRAMS
+---------------
+The "Wiring diagrams" folder contains 66 individual PDF files.
+Open these directly in any PDF viewer - no browser needed.
+Files cover: ABS, AC, Charging, EPS, Engine, Fuel, Headlights, and more.
+
+NOTES
+-----
+- This manual was modified to work in modern browsers (removed IE-only restriction)
+- Cross-references between pages work without popup windows
+- VML vector graphics (IE-specific) won't render, but all text and PNG images work
+- For printing: use your browser's built-in print function
+
+GOOGLE DRIVE
+------------
+To access from multiple devices:
+1. Upload this entire folder to Google Drive
+2. Download to each device you want to use it on
+3. On mobile: use a file manager app that supports local HTML browsing,
+   or use Python server method above on a computer and access via local network IP

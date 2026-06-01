@@ -1,0 +1,34 @@
+with(document) {
+write("<v:group id=\"group1\"  name=\"PrtGrpId\" class=\"drag\" style=\"position:relative; width:950px; height:543px;\" coordsize=\"950,543\">");
+write("<v:rect id=\"rect1\" name=\"PrtRectId\"class=\"drag\"  style=\"width:950px;height:543px;\">");
+write("<img id=\"img1\" name=\"PrtImgId\" src=\"../img/SWA7E00J32300000000DAAD01.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:543px;border-color:#ffffff\">");
+write("<p id=\"p1_1\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:16px;top:364px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>MICU<br>(Built into the under-<br>dash fuse/relay box)<br><a href=\"javascript:CtsProc('0','000000000000459','i000')\"></b>Input Test,</a><br><a href=\"javascript:CtsProc('0','000000000000586','i000')\">Replacement,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_2\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:180px;top:463px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>GLOVE BOX LIGHT<br><a href=\"javascript:CtsProc('0','000000000000416','i000')\"></b>Test/Replacement,<br></a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_3\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:698px;top:491px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>TAILGATE LATCH SWITCH<br><a href=\"javascript:CtsProc('0','000000000000420','i000')\"></b>Test,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_4\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:750px;top:350px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>CARGO AREA LIGHT<br><a href=\"javascript:CtsProc('0','000000000000415','i000')\"></b>Test/Replacement,<br></a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_5\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:732px;top:261px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>CEILING LIGHT<br><a href=\"javascript:CtsProc('0','000000000000415','i000')\"></b>Test/Replacement,<br></a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_6\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:653px;top:157px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>VANITY MIRROR LIGHT<br><a href=\"javascript:CtsProc('0','000000000000419','i000')\"></b>Test,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_7\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:527px;top:13px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>INDIVIDUAL MAP LAGHTS<br><a href=\"javascript:CtsProc('0','000000000000417','iR01')\"></b>Test/Replacement,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_8\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:527px;top:43px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>AMBIENT LIGHT<br>(Built into the sunroof switch)<br><a href=\"javascript:CtsProc('0','000000000000414','i000')\"></b>Test/Replacement,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_9\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:527px;top:90px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>INTERIOR LIGHT SWITCH<br>(Built into the sunroof switch)<br><a href=\"javascript:CtsProc('0','000000000000418','i000')\"></b>Test/Replacement,</a><br></nobr>");
+write("</p>");
+write("</v:rect>");
+write("</v:group>");
+}

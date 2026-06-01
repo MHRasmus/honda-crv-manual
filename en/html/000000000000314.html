@@ -1,0 +1,247 @@
+<html lang="en" xmlns:v="urn:schemas-microsoft-com:vml">
+<head>
+<meta name="author" content="HONDA MOTOR Co.,Ltd.">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<title>(
+SWA7E00J22100030053MBAT00
+)</title>
+<script>
+<!--
+var strPara = location.href.split("?")[1];
+document.title = strPara + document.title;
+
+function CtsProc(Type,Key,Anc) {
+	if(Type == '0') {
+		parent.Cts(Key,Anc+'?'+strPara);
+	}
+	else if(Type == '1') {
+		parent.parent.Cts(Key,Anc+'?'+strPara);
+	}
+	else if(Type == '2') {
+		opener.top.Cts(Key,Anc+'?'+strPara);
+	}
+	else {
+		parent.Cts(Key,Anc+'?'+strPara);
+	}
+}
+
+function PrtProc(Type,Key,Anc) {
+	if(Type == '0') {
+		parent.Prt(Key,Anc+'?'+strPara);
+	}
+	else if(Type == '1') {
+		parent.parent.Prt(Key,Anc+'?'+strPara);
+	}
+	else if(Type == '2') {
+		opener.top.Prt(Key,Anc+'?'+strPara);
+	}
+	else {
+		parent.Prt(Key,Anc+'?'+strPara);
+	}
+}
+-->
+</script>
+<link href="../css/ViewerStyle.css" rel="stylesheet">
+<style>
+	v\:*	{ behavior: url(#default#VML); }
+	.drag	{ position: relative; cursor:   hand; }
+</style>
+</head>
+<script>
+<!--
+-->
+</script>
+<script src="../js/PrinterSize.js"></script>
+<script src="../js/StandardPrintFunc.js"></script>
+<body onload="javascript:parent.Old(this)" style="font-family:sans-serif;">
+<div xmlns:v="urn:schemas-microsoft-com:vml">
+<div class="top_title">
+Rewriting the ODO Data and Transferring Smart Maintenance on a New Gauge Control Module
+</div>
+<span style="display:none" id="hrDivId">
+<div style="page-break-after:always">
+</div>
+</span>
+<hr width="100%" size="2" id="hrId" color="gray">
+<table width="100%" class="Viewer">
+<tr>
+<td width="80%" class="ViewerTD" id="textTd" valign="top">
+<div>
+NOTE:
+</div>
+<ul type="disc">
+<li>
+<div>
+Obtain a new gauge control module before starting the rewriting process.
+</div>
+</li>
+<li>
+<div>
+Rewriting is not possible on a gauge control module that will not communicate with the HDS.
+</div>
+</li>
+<li>
+<div>
+Make sure that the HDS shows the correct MaRIS for the car you are working on.
+</div>
+</li>
+<li>
+<div>
+Once you have started this procedure, you must complete it before removing the HDS from the DLC.
+</div>
+</li>
+<li>
+<div>
+Connect a battery jumper box (not a battery charger) to insure that correct battery voltage will be maintained.
+</div>
+</li>
+</ul>
+<a name="i010">
+</a>
+<ol>
+<li value="1">
+<div>
+Before replacing the gauge control module, connect the HDS.
+</div>
+</li>
+</ol>
+<a name="i020">
+</a>
+<ol>
+<li value="2">
+<div>
+Select GAUGES from the BODY ELECTRICAL system select menu with the HDS.
+</div>
+</li>
+</ol>
+<a name="i030">
+</a>
+<ol>
+<li value="3">
+<div>
+Select ‘‘Gauge Control Module Replacement (ODO Rewrite)'' from the ADJUSTMENT menu, and follow the instructions on the display to retrieve the ODO value and the Smart Maintenance Information.
+</div>
+</li>
+</ol>
+<a name="i040">
+</a>
+<ol>
+<li value="4">
+<div>
+Replace the gauge control module.
+</div>
+</li>
+</ol>
+<a name="i050">
+</a>
+<ol>
+<li value="5">
+<div>
+Follow the instructions on the display to write the new ODO value and Smart Maintenance to the new gauge control module. If the data transfer fails, refer to the instructions below to release the locked ODO value.
+</div>
+</li>
+</ol>
+<a name="iR01">
+</a>
+<div class="procedure_topic_title">
+<b>
+Release Locked odometer mileage to the original gauge control module.
+</b>
+</div>
+<div>
+If, after you attempt to transfer mileage, the odometer has dashes (−−−), garbled, or an incorrect value displayed, do the following:
+</div>
+<div>
+Start over. The original gauge control module is going to be unlocked and restored to its original state.
+</div>
+<a name="i060">
+</a>
+<ol>
+<li value="6">
+<div>
+Confirm that you have the latest HDS version of software.
+</div>
+</li>
+</ol>
+<a name="i070">
+</a>
+<ol>
+<li value="7">
+<div>
+Make sure that the HDS shows the correct MaRIS for the car you are working on.
+</div>
+</li>
+</ol>
+<a name="i080">
+</a>
+<ol>
+<li value="8">
+<div>
+With the ignition switch OFF, reconnect the original gauge control module.
+</div>
+</li>
+</ol>
+<a name="i090">
+</a>
+<ol>
+<li value="9">
+<div>
+Completely re-boot the HDS.
+</div>
+</li>
+</ol>
+<a name="i100">
+</a>
+<ol>
+<li value="10">
+<div>
+Clear any stored DTCs.
+</div>
+</li>
+</ol>
+<a name="i110">
+</a>
+<ol>
+<li value="11">
+<div>
+Navigate to Body Electric/Gauges/Adjustment/Instrument Panel Replacement.
+</div>
+</li>
+</ol>
+<a name="i120">
+</a>
+<ol>
+<li value="12">
+<div>
+Select ‘‘3. Releasing Locked ODO Value.''
+</div>
+</li>
+</ol>
+<a name="i130">
+</a>
+<ol>
+<li value="13">
+<div>
+Follow the prompts and the Odometer mileage will be restored.
+</div>
+</li>
+</ol>
+<a name="i140">
+</a>
+<ol>
+<li value="14">
+<div>
+Start over and make sure the screen prompts are followed.
+</div>
+</li>
+</ol>
+</td>
+<td width="20%" class="ViewerTD" id="graphTd" valign="top">
+</td>
+</tr>
+</table>
+</div>
+</body>
+</html>

@@ -1,0 +1,5 @@
+/* emastyle.css - manual header toolbar styles */
+body { margin: 0; padding: 0; background-color: #646464; }
+TABLE.RirekiArea { border: 0; width: 100%; background-color: #646464; color: #ffffff; }
+SPAN.histLabel { font-size: 12px; }
+img { cursor: pointer; }

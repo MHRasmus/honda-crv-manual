@@ -1,0 +1,31 @@
+with(document) {
+write("<v:group id=\"group1\"  name=\"PrtGrpId\" class=\"drag\" style=\"position:relative; width:950px; height:863px;\" coordsize=\"950,863\">");
+write("<v:rect id=\"rect1\" name=\"PrtRectId\"class=\"drag\"  style=\"width:950px;height:863px;\">");
+write("<img id=\"img1\" name=\"PrtImgId\" src=\"../img/SWA7E00J54300000000DAAD01.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:863px;border-color:#ffffff\">");
+write("<p id=\"p1_1\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:16px;top:293px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>WINDSHILD WIPER<br>ARM and LINKAGE<br><a href=\"javascript:CtsProc('0','000000000000607','i000')\"></b>Replacement,</a><br><a href=\"javascript:CtsProc('0','000000000000604','i000')\">Adjustment,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_2\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:128px;top:597px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>WINDSHIELD WIPER MOTOR<br><a href=\"javascript:CtsProc('0','000000000000606','i000')\"></b>Test,</a><br><a href=\"javascript:CtsProc('0','000000000000607','i000')\">Replacement,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_3\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:53px;top:443px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>UNDER-HOOD FUSE/RELAY BOX<br>(Built in the rear<br>window wiper motor relay)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_4\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:647px;top:521px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>UNDER-DASH FUSE/RELAY BOX<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_5\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:571px;top:684px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>INTERMITTENT WIPER RELAY CIRCUIT<br>(Built into the MICU)<br><a href=\"javascript:CtsProc('0','000000000000599','i000')\"></b>Input Test,</a><br><a href=\"javascript:CtsProc('0','000000000000586','i000')\">Replacement,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_6\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:0px;top:830px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b></b>LHD type is shown, RHD type is similar.<br></nobr>");
+write("</p>");
+write("<p id=\"p1_7\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:682px;top:16px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>WINDSHIELD WIPER BLADES<br><a href=\"javascript:CtsProc('0','000000000000605','i000')\"></b>Replacement,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_8\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:700px;top:105px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>WIPER/WASHER SWITCH<br><a href=\"javascript:CtsProc('0','000000000000608','i000')\"></b>Test,</a><br><a href=\"javascript:CtsProc('0','000000000000599','i000')\">Input Test,</a><br></nobr>");
+write("</p>");
+write("</v:rect>");
+write("</v:group>");
+}

@@ -1,0 +1,31 @@
+with(document) {
+write("<v:group id=\"group2\"  name=\"PrtGrpId\" class=\"drag\" style=\"position:relative; width:475px; height:577px;\" coordsize=\"475,577\">");
+write("<v:rect id=\"rect2\" name=\"PrtRectId\"class=\"drag\"  style=\"width:475px;height:577px;\">");
+write("<img id=\"img2\" name=\"PrtImgId\" src=\"../img/SWA7E00J16126700000MBAD02.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:475px;height:577px;border-color:#ffffff\">");
+write("<p id=\"p2_1\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:19px;top:170px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>E<br>8 x 1.25 mm<br>29 N·m <br>(3.0 kgf·m, <br>22 lbf·ft)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p2_2\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:58px;top:16px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>A<br></b></nobr>");
+write("</p>");
+write("<p id=\"p2_3\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:330px;top:464px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>B<br></b></nobr>");
+write("</p>");
+write("<p id=\"p2_4\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:201px;top:418px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>C<br></b></nobr>");
+write("</p>");
+write("<p id=\"p2_5\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:125px;top:345px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>A<br></b></nobr>");
+write("</p>");
+write("<p id=\"p2_6\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:213px;top:26px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>F<br>8 x 1.25 mm<br>29 N·m <br>(3.0 kgf·m, <br>22 lbf·ft)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p2_7\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:195px;top:476px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>F<br>8 x 1.25 mm<br>29 N·m <br>(3.0 kgf·m, <br>22 lbf·ft)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p2_8\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:18px;top:281px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>E<br>8 x 1.25 mm<br>29 N·m <br>(3.0 kgf·m, <br>22 lbf·ft)<br></b></nobr>");
+write("</p>");
+write("</v:rect>");
+write("</v:group>");
+}

@@ -1,0 +1,31 @@
+with(document) {
+write("<v:group id=\"group1\"  name=\"PrtGrpId\" class=\"drag\" style=\"position:relative; width:952px; height:751px;\" coordsize=\"952,751\">");
+write("<v:rect id=\"rect1\" name=\"PrtRectId\"class=\"drag\"  style=\"width:952px;height:751px;\">");
+write("<img id=\"img1\" name=\"PrtImgId\" src=\"../img/SWA7E00R21100000000YCAD07.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:952px;height:751px;border-color:#ffffff\">");
+write("<p id=\"p1_1\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:310px;top:167px;font-weight:normal;font-size:8.7pt;\">");
+write("<nobr><b>HOOD SKIN<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_2\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:191px;top:235px;font-weight:normal;font-size:8.7pt;\">");
+write("<nobr><b>300<br>(11.8)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_3\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:403px;top:721px;font-weight:normal;font-size:8.7pt;\">");
+write("<nobr><b>470 (18.5)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_4\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:676px;top:682px;font-weight:normal;font-size:8.7pt;\">");
+write("<nobr><b>100 (3.94)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_5\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:729px;top:608px;font-weight:normal;font-size:8.7pt;\">");
+write("<nobr><b>100 (3.94)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_6\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:0px;top:48px;font-weight:normal;font-size:8.7pt;\">");
+write("<nobr><b></b>NOTE: Make sure to coat the flange on front and rear wheel arch.<br></nobr>");
+write("</p>");
+write("<p id=\"p1_7\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:0px;top:81px;font-weight:normal;font-size:8.7pt;\">");
+write("<nobr><b>Unit: mm (in.)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_8\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:54px;top:16px;font-weight:normal;font-size:8.7pt;\">");
+write("<nobr><b></b>Indicates chipping guard primer coating area.<br></nobr>");
+write("</p>");
+write("</v:rect>");
+write("</v:group>");
+}

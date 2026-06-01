@@ -1,0 +1,37 @@
+with(document) {
+write("<v:group id=\"group4\"  name=\"PrtGrpId\" class=\"drag\" style=\"position:relative; width:950px; height:543px;\" coordsize=\"950,543\">");
+write("<v:rect id=\"rect4\" name=\"PrtRectId\"class=\"drag\"  style=\"width:950px;height:543px;\">");
+write("<img id=\"img4\" name=\"PrtImgId\" src=\"../img/SWA7E00J54400000000DAAD04.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:543px;border-color:#ffffff\">");
+write("<p id=\"p4_1\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:129px;top:83px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>SIDE RUBBER DAM, 2<br></b></nobr>");
+write("</p>");
+write("<p id=\"p4_2\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:301px;top:474px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>LOWER RUBBER DAM<br></b></nobr>");
+write("</p>");
+write("<p id=\"p4_3\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:670px;top:394px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>LOWER FASTENER, 2<br>(Self-adhesive-type, glass side)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p4_4\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:481px;top:14px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>UPPER RUBBER DAM<br></b></nobr>");
+write("</p>");
+write("<p id=\"p4_5\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:26px;top:412px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>REAR WINDOW<br><a href=\"javascript:CtsProc('0','000000000000615','i000')\"></b>Replacement,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p4_6\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:91px;top:496px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>i-VTEC/i-CDTi STECKER<br><a href=\"javascript:CtsProc('0','000000000000256','i000')\"></b>Replacement,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p4_7\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:601px;top:497px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>4WD STECKER<br><a href=\"javascript:CtsProc('0','000000000000256','i000')\"></b>Replacement,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p4_8\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:625px;top:447px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>FASTENER, 2<br>(Self-adhesive-type, tailgate side)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p4_9\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:695px;top:235px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>UPPER FASTENER, 2<br>(Self-adhesive-type, glass side)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p4_10\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:688px;top:36px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>FASTENER, 2<br>(Self-adhesive-type, tailgate side)<br></b></nobr>");
+write("</p>");
+write("</v:rect>");
+write("</v:group>");
+}

@@ -1,0 +1,37 @@
+with(document) {
+write("<v:group id=\"group1\"  name=\"PrtGrpId\" class=\"drag\" style=\"position:relative; width:950px; height:767px;\" coordsize=\"950,767\">");
+write("<v:rect id=\"rect1\" name=\"PrtRectId\"class=\"drag\"  style=\"width:950px;height:767px;\">");
+write("<img id=\"img1\" name=\"PrtImgId\" src=\"../img/SWA7E00B44100036401KBAD01.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:767px;border-color:#ffffff\">");
+write("<p id=\"p1_1\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:755px;top:237px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>BRAKE DISC<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_2\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:86px;top:369px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>KNUCKLE<br></b>Check for deformation.<br></nobr>");
+write("</p>");
+write("<p id=\"p1_3\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:342px;top:507px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>HUB BEARING UNIT<br>(with built-in magnetic encoder)<br></b>Check for faulty<br>movement and wear.<br></nobr>");
+write("</p>");
+write("<p id=\"p1_4\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:491px;top:39px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>BACKING PLATE<br></b>Check for corrosion, deformation,<br>and damage. Replace if rusted.<br></nobr>");
+write("</p>");
+write("<p id=\"p1_5\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:709px;top:574px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>SPINDLE NUT (4WD)<br></b>Replace.<br></nobr>");
+write("</p>");
+write("<p id=\"p1_6\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:709px;top:606px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>24 x 1.5 mm<br>245 N·m <br>(25 kgf·m, 181 lbf·ft)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_7\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:709px;top:702px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b></b>Apply a small amount<br>of engine oil to the seating<br>surface of the nut.<br></nobr>");
+write("</p>");
+write("<p id=\"p1_8\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:576px;top:589px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>6 x 1.0 mm<br>9.8 N·m <br>(1.0 kgf·m, <br>7.2 lbf·ft)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_9\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:80px;top:18px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>14 x 1.5 mm<br>137 N·m <br>(14 kgf·m, 101 lbf·ft)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_10\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:567px;top:134px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>PARKING BRAKE SHOES<br>ASSEMBLY<br></b></nobr>");
+write("</p>");
+write("</v:rect>");
+write("</v:group>");
+}

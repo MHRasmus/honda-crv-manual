@@ -1,0 +1,31 @@
+with(document) {
+write("<v:group id=\"group1\"  name=\"PrtGrpId\" class=\"drag\" style=\"position:relative; width:950px; height:1103px;\" coordsize=\"950,1103\">");
+write("<v:rect id=\"rect1\" name=\"PrtRectId\"class=\"drag\"  style=\"width:950px;height:1103px;\">");
+write("<img id=\"img1\" name=\"PrtImgId\" src=\"../img/SWA7E40J54200000000DEAD01.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:1103px;border-color:#ffffff\">");
+write("<p id=\"p1_1\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:391px;top:18px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>A/C COMPRESSOR<br>CLUTCH RELAY<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_2\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:591px;top:25px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>FAN CONTROL RELAY<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_3\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:83px;top:240px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>VSA MODULATOR<br>CONTROL UNIT<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_4\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:613px;top:406px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>GLOW PLUG<br>CONTROL MODULE<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_5\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:598px;top:344px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>UNDER-HOOD FUSE/RELAY BOX<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_6\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:0px;top:1073px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b></b>LHD type is shown, RHD type is similar.<br></nobr>");
+write("</p>");
+write("<p id=\"p1_7\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:755px;top:883px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>BLOWER<br>MOTOR RELAY<br></b>Wire colors: WHT,<br>BRN, YEL, and BLK<br></nobr>");
+write("</p>");
+write("<p id=\"p1_8\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:750px;top:1008px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>AUXILIARY UNDER-HOOD<br>RELAY BOX<br></b></nobr>");
+write("</p>");
+write("</v:rect>");
+write("</v:group>");
+}

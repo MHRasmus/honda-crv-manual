@@ -1,0 +1,37 @@
+with(document) {
+write("<v:group id=\"group18\"  name=\"PrtGrpId\" class=\"drag\" style=\"position:relative; width:950px; height:927px;\" coordsize=\"950,927\">");
+write("<v:rect id=\"rect18\" name=\"PrtRectId\"class=\"drag\"  style=\"width:950px;height:927px;\">");
+write("<img id=\"img18\" name=\"PrtImgId\" src=\"../img/SWA7E40A20300000000DBAD16.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:927px;border-color:#ffffff\">");
+write("<p id=\"p18_1\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:625px;top:214px;font-weight:normal;font-size:7.4pt;\">");
+write("<nobr><b>APP SENSOR (4)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p18_2\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:83px;top:16px;font-weight:normal;font-size:7.4pt;\">");
+write("<nobr><b>UNDER-DASH FUSE/RELAY<br>BOX (R) (1)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p18_3\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:453px;top:16px;font-weight:normal;font-size:7.4pt;\">");
+write("<nobr><b>UNDER-DASH FUSE/RELAY BOX (G) (2)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p18_4\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:181px;top:215px;font-weight:normal;font-size:7.4pt;\">");
+write("<nobr><b>UNDER-DASH FUSE/RELAY BOX (F) (3)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p18_5\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:95px;top:418px;font-weight:normal;font-size:7.4pt;\">");
+write("<nobr><b>ECM CONNECTOR No. 2 (58P) (6)*<br></b></nobr>");
+write("</p>");
+write("<p id=\"p18_6\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:130px;top:623px;font-weight:normal;font-size:7.4pt;\">");
+write("<nobr><b>34P CONNECTOR (8)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p18_7\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:512px;top:418px;font-weight:normal;font-size:7.4pt;\">");
+write("<nobr><b>ECM CONNECTOR No. 1 (96P) (7)*<br></b></nobr>");
+write("</p>");
+write("<p id=\"p18_8\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:484px;top:623px;font-weight:normal;font-size:7.4pt;\">");
+write("<nobr><b>18P CONNECTOR (9)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p18_9\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:775px;top:202px;font-weight:normal;font-size:7.4pt;\">");
+write("<nobr><b>CLUTCH PEDAL<br>POSITION SWITCH <br>A (5)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p18_10\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:0px;top:847px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b></b>NOTE:<br>· Connector with male terminals (double outline): view from terminal side<br>· Connector with female terminals (single outline): view from wire side<br>*: Connector with female terminals (single outline): view from terminal side<br></nobr>");
+write("</p>");
+write("</v:rect>");
+write("</v:group>");
+}

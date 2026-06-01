@@ -1,0 +1,37 @@
+with(document) {
+write("<v:group id=\"group19\"  name=\"PrtGrpId\" class=\"drag\" style=\"position:relative; width:950px; height:719px;\" coordsize=\"950,719\">");
+write("<v:rect id=\"rect19\" name=\"PrtRectId\"class=\"drag\"  style=\"width:950px;height:719px;\">");
+write("<img id=\"img19\" name=\"PrtImgId\" src=\"../img/SWA7E80A20300000000DBAD19.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:719px;border-color:#ffffff\">");
+write("<p id=\"p19_1\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:837px;top:274px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>JUNCTION<br>BOX<br></b></nobr>");
+write("</p>");
+write("<p id=\"p19_2\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:548px;top:15px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>DASHBOARD WIRE<br>HARNESS<br></b></nobr>");
+write("</p>");
+write("<p id=\"p19_3\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:721px;top:618px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>FROOR WIRE<br>HARNESS<br></b></nobr>");
+write("</p>");
+write("<p id=\"p19_4\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:548px;top:666px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>ENGINE COMPARTMENT<br>WIRE HARNESS<br></b></nobr>");
+write("</p>");
+write("<p id=\"p19_5\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:502px;top:665px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>1<br></b></nobr>");
+write("</p>");
+write("<p id=\"p19_6\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:426px;top:647px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>2<br></b></nobr>");
+write("</p>");
+write("<p id=\"p19_7\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:365px;top:618px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>3<br></b></nobr>");
+write("</p>");
+write("<p id=\"p19_8\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:293px;top:582px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>4<br></b></nobr>");
+write("</p>");
+write("<p id=\"p19_9\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:219px;top:558px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>5<br></b></nobr>");
+write("</p>");
+write("<p id=\"p19_10\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:144px;top:534px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>6<br></b></nobr>");
+write("</p>");
+write("</v:rect>");
+write("</v:group>");
+}

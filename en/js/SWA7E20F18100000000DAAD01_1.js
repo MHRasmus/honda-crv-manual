@@ -1,0 +1,34 @@
+with(document) {
+write("<v:group id=\"group1\"  name=\"PrtGrpId\" class=\"drag\" style=\"position:relative; width:950px; height:623px;\" coordsize=\"950,623\">");
+write("<v:rect id=\"rect1\" name=\"PrtRectId\"class=\"drag\"  style=\"width:950px;height:623px;\">");
+write("<img id=\"img1\" name=\"PrtImgId\" src=\"../img/SWA7E20F18100000000DAAD01.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:623px;border-color:#ffffff\">");
+write("<p id=\"p1_1\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:28px;top:507px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>EPS CONTROL UNIT<br><a href=\"javascript:CtsProc('0','000000000001413','i000')\"></b>Removal/Installation,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_2\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:318px;top:541px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>STEERING GEARBOX</b><br><a href=\"javascript:CtsProc('0','000000000001400','i000')\">Removal and Installation,</a><br><a href=\"javascript:CtsProc('0','000000000001401','i000')\">Rack End Removal and Installation,</a><br><a href=\"javascript:CtsProc('0','000000000001402','i000')\">Rack Guide Removal/Installation,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_3\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:112px;top:121px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>BATTERY<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_4\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:780px;top:21px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>GAUGE CONTROL<br>MODULE<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_5\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:785px;top:224px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>UNDER-DASH<br>FUSE/RELAY BOX<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_6\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:787px;top:149px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>UNDER-HOOD<br>FUSE/RELAY BOX<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_7\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:56px;top:75px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>DATA LINK CONNECTOR (DLC)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_8\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:730px;top:392px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>TORQUE SENSOR<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_9\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:760px;top:298px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>MOTOR<br><a href=\"javascript:CtsProc('0','000000000001414','i000')\"></b>Removal and Installation,<br></a><br></nobr>");
+write("</p>");
+write("</v:rect>");
+write("</v:group>");
+}

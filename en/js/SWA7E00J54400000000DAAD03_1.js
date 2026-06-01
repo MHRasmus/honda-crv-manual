@@ -1,0 +1,31 @@
+with(document) {
+write("<v:group id=\"group3\"  name=\"PrtGrpId\" class=\"drag\" style=\"position:relative; width:950px; height:543px;\" coordsize=\"950,543\">");
+write("<v:rect id=\"rect3\" name=\"PrtRectId\"class=\"drag\"  style=\"width:950px;height:543px;\">");
+write("<img id=\"img3\" name=\"PrtImgId\" src=\"../img/SWA7E00J54400000000DAAD03.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:543px;border-color:#ffffff\">");
+write("<p id=\"p3_1\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:630px;top:445px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>SIDE RUBBER DAM, 2<br></b></nobr>");
+write("</p>");
+write("<p id=\"p3_2\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:762px;top:74px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>ROOF GLASS MOLDING<br></b></nobr>");
+write("</p>");
+write("<p id=\"p3_3\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:659px;top:14px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>ROOF GLASS<br><a href=\"javascript:CtsProc('0','000000000000616','i000')\"></b>Replacement,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p3_4\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:103px;top:471px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>RIGHT CLIP<br>(Self-adhesive-type, glass side)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p3_5\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:244px;top:443px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>LOWER RUBBER DAM<br></b></nobr>");
+write("</p>");
+write("<p id=\"p3_6\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:739px;top:378px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>FASTENER, 2<br>(Self-adhesive-type, <br>body side)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p3_7\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:778px;top:316px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>FASTENER, 2<br>(Self-adhesive-type, <br>glass side)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p3_8\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:415px;top:499px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>LEFT CLIP<br>(Self-adhesive-type, glass side)<br></b></nobr>");
+write("</p>");
+write("</v:rect>");
+write("</v:group>");
+}

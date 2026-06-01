@@ -1,0 +1,37 @@
+with(document) {
+write("<v:group id=\"group14\"  name=\"PrtGrpId\" class=\"drag\" style=\"position:relative; width:950px; height:415px;\" coordsize=\"950,415\">");
+write("<v:rect id=\"rect14\" name=\"PrtRectId\"class=\"drag\"  style=\"width:950px;height:415px;\">");
+write("<img id=\"img14\" name=\"PrtImgId\" src=\"../img/SWA7EB0A20300000000DBAD14.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:415px;border-color:#ffffff\">");
+write("<p id=\"p14_1\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:32px;top:37px;font-weight:normal;font-size:7.4pt;\">");
+write("<nobr><b>REVERSE LOCK<br>SOLENOID VALVE<br>(1) (M/T)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p14_2\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:296px;top:37px;font-weight:normal;font-size:7.4pt;\">");
+write("<nobr><b>OUTPUT SHAFT<br>(COUNTERSHAFT)<br>SPEED SENSOR<br>(2) (M/T)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p14_3\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:548px;top:38px;font-weight:normal;font-size:7.4pt;\">");
+write("<nobr><b>A/T CLUTCH<br>PRESSURE<br>CONTROL<br>SOLENOID VALVE<br>A (3) (A/T)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p14_4\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:763px;top:23px;font-weight:normal;font-size:7.4pt;\">");
+write("<nobr><b>3RD<br>CLUTCH<br>TRANSMISSION<br>FLUID<br>PRESSURE SWITCH<br>(4) (A/T)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p14_5\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:46px;top:172px;font-weight:normal;font-size:7.4pt;\">");
+write("<nobr><b>A/T CLUTCH<br>PRESSURE<br>CONTROL<br>SOLENOID VALVE<br>B (5) (A/T)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p14_6\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:228px;top:186px;font-weight:normal;font-size:7.4pt;\">");
+write("<nobr><b>8P CONNECTOR<br>(6) (A/T)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p14_7\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:419px;top:186px;font-weight:normal;font-size:7.4pt;\">");
+write("<nobr><b>ECT SENSOR<br>2 (7)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p14_8\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:603px;top:172px;font-weight:normal;font-size:7.4pt;\">");
+write("<nobr><b>A/T CLUTCH<br>PRESSURE<br>CONTROL<br>SOLENOID VALVE<br>C (8) (A/T)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p14_9\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:796px;top:185px;font-weight:normal;font-size:7.4pt;\">");
+write("<nobr><b>CKP SENSOR<br>(9)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p14_10\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:0px;top:349px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b></b>NOTE:<br>· Connector with male terminals (double outline): view from terminal side<br>· Connector with female terminals (single outline): view from wire side<br></nobr>");
+write("</p>");
+write("</v:rect>");
+write("</v:group>");
+}

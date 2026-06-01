@@ -1,0 +1,34 @@
+with(document) {
+write("<v:group id=\"group1\"  name=\"PrtGrpId\" class=\"drag\" style=\"position:relative; width:950px; height:543px;\" coordsize=\"950,543\">");
+write("<v:rect id=\"rect1\" name=\"PrtRectId\"class=\"drag\"  style=\"width:950px;height:543px;\">");
+write("<img id=\"img1\" name=\"PrtImgId\" src=\"../img/SWA7E00J54400000000DAAD01.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:543px;border-color:#ffffff\">");
+write("<p id=\"p1_1\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:296px;top:26px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>MOLDING UPPER SEAL<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_2\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:521px;top:15px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>UPPER RUBBER DAM<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_3\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:58px;top:383px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>RETAINER, 8<br><a href=\"javascript:CtsProc('0','000000000000300','iR02')\"></b>Replacement,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_4\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:581px;top:500px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>WINDSHIELD<br><a href=\"javascript:CtsProc('0','000000000000617','i000')\"></b>Replacement,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_5\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:192px;top:58px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>WINDSHIELD MOLDING<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_6\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:727px;top:38px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>CLIP, 2<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_7\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:782px;top:16px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>SIDE RUBBER DAM<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_8\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:717px;top:456px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>WINDSHIELD SIDE TRIM<br><a href=\"javascript:CtsProc('0','000000000000300','i000')\"></b>Replacement,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_9\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:99px;top:456px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>AUTOMATIC LIGHTING/RAIN SENSOR COVER BASE<br><a href=\"javascript:CtsProc('0','000000000000610','i000')\"></b>Replacement,</a><br></nobr>");
+write("</p>");
+write("</v:rect>");
+write("</v:group>");
+}

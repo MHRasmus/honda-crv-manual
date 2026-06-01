@@ -1,0 +1,37 @@
+with(document) {
+write("<v:group id=\"group1\"  name=\"PrtGrpId\" class=\"drag\" style=\"position:relative; width:475px; height:417px;\" coordsize=\"475,417\">");
+write("<v:rect id=\"rect1\" name=\"PrtRectId\"class=\"drag\"  style=\"width:475px;height:417px;\">");
+write("<img id=\"img1\" name=\"PrtImgId\" src=\"../img/SWA7E00K705000Y2125FAAD02.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:475px;height:417px;border-color:#ffffff\">");
+write("<p id=\"p1_1\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:65px;top:16px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>STEERING ANGLE SENSOR 5P CONNECTOR<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_2\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:123px;top:40px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b></b>Wire side of female terminals<br></nobr>");
+write("</p>");
+write("<p id=\"p1_3\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:58px;top:342px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>ADAPTIVE FRONT LIGHTING CONTROL UNIT <br>40P CONNECTOR<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_4\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:123px;top:384px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b></b>Wire side of female terminals<br></nobr>");
+write("</p>");
+write("<p id=\"p1_5\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:107px;top:146px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>STA (RED)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_6\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:280px;top:247px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>STZ (BLU)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_7\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:385px;top:226px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>STA <br>(RED)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_8\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:241px;top:146px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>STZ (BLU)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_9\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:273px;top:69px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>STB (PUR)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_10\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:283px;top:310px;font-weight:normal;font-size:9.2pt;\">");
+write("<nobr><b>STB (PUR)<br></b></nobr>");
+write("</p>");
+write("</v:rect>");
+write("</v:group>");
+}

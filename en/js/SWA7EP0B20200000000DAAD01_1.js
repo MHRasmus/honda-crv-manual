@@ -1,0 +1,31 @@
+with(document) {
+write("<v:group id=\"group1\"  name=\"PrtGrpId\" class=\"drag\" style=\"position:relative; width:950px; height:911px;\" coordsize=\"950,911\">");
+write("<v:rect id=\"rect1\" name=\"PrtRectId\"class=\"drag\"  style=\"width:950px;height:911px;\">");
+write("<img id=\"img1\" name=\"PrtImgId\" src=\"../img/SWA7EP0B20200000000DAAD01.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:911px;border-color:#ffffff\">");
+write("<p id=\"p1_1\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:583px;top:19px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>DAMPER/SPRING<br><a href=\"javascript:CtsProc('0','000000000003872','iR01')\"></b>Removal,</a><br><a href=\"javascript:CtsProc('0','000000000003872','iR02')\">Installation,</a><br>Disassembly/Inspection/<br><a href=\"javascript:CtsProc('0','000000000000009','i000')\"> Reassembly,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_2\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:712px;top:232px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>KNUCKLE/<br>HUB/<br>WHEEL BEARING<br><a href=\"javascript:CtsProc('0','000000000003873','i000')\"></b>Replacement,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_3\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:42px;top:530px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>STABILIZER LINK<br><a href=\"javascript:CtsProc('0','000000000000012','i000')\"></b>Removal/Installation,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_4\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:43px;top:426px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>STABILIZER BAR<br><a href=\"javascript:CtsProc('0','000000000000011','i000')\"></b>Replacement,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_5\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:87px;top:682px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>LOWER ARM<br><a href=\"javascript:CtsProc('0','000000000000010','i000')\"></b>Replacement,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_6\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:433px;top:864px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>WHEEL BOLT<br><a href=\"javascript:CtsProc('0','000000000000024','i000')\"></b>Replacement,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_7\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:87px;top:714px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>BOLL JOINT<br><a href=\"javascript:CtsProc('0','000000000000006','i000')\"></b>Inspection,</a><br></nobr>");
+write("</p>");
+write("<p id=\"p1_8\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:88px;top:747px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>LOWER BOLL JOINT<br><a href=\"javascript:CtsProc('0','000000000000004','i000')\"></b>Replacement,</a><br><a href=\"javascript:CtsProc('0','000000000000007','i000')\">Boot Replacement,</a><br></nobr>");
+write("</p>");
+write("</v:rect>");
+write("</v:group>");
+}

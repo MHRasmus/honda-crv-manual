@@ -1,0 +1,37 @@
+with(document) {
+write("<v:group id=\"group1\"  name=\"PrtGrpId\" class=\"drag\" style=\"position:relative; width:950px; height:1039px;\" coordsize=\"950,1039\">");
+write("<v:rect id=\"rect1\" name=\"PrtRectId\"class=\"drag\"  style=\"width:950px;height:1039px;\">");
+write("<img id=\"img1\" name=\"PrtImgId\" src=\"../img/SWA7E40A18223800000KCAD01.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:1039px;border-color:#ffffff\">");
+write("<p id=\"p1_1\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:146px;top:16px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>SIDE ENGINE MOUNT BRACKET<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_2\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:560px;top:37px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>TRANSMISSION MOUNT BRACKET<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_3\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:638px;top:459px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>POWER STEERING (P/S)<br>PUMP BRACKET<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_4\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:427px;top:1007px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>A/C COMPRESSOR BRACKET<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_5\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:130px;top:884px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>LOWER TORQUE ROD BRACKET<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_6\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:57px;top:264px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>10 x 1.25 mm<br>60 N·m <br>(6.1 kgf·m, 44 lbf·ft)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_7\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:437px;top:196px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>12 x 1.25 mm<br>59 N·m <br>(6.0 kgf·m, 43 lbf·ft)<br></b>Replace.<br></nobr>");
+write("</p>");
+write("<p id=\"p1_8\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:806px;top:744px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>10 x 1.25 mm<br>44 N·m <br>(4.5 kgf·m, 33 lbf·ft)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_9\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:664px;top:927px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>10 x 1.25 mm<br>44 N·m <br>(4.5 kgf·m, 33 lbf·ft)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p1_10\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:18px;top:610px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>12 x 1.25 mm<br>64 N·m <br>(6.5 kgf·m, 47 lbf·ft)<br></b>Replace.<br></nobr>");
+write("</p>");
+write("</v:rect>");
+write("</v:group>");
+}

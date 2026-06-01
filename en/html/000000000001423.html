@@ -1,0 +1,267 @@
+<html lang="en" xmlns:v="urn:schemas-microsoft-com:vml">
+<head>
+<meta name="author" content="HONDA MOTOR Co.,Ltd.">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<title>(
+SWA7E20K722000R2103FAAT00
+)</title>
+<script>
+<!--
+var strPara = location.href.split("?")[1];
+document.title = strPara + document.title;
+
+function CtsProc(Type,Key,Anc) {
+	if(Type == '0') {
+		parent.Cts(Key,Anc+'?'+strPara);
+	}
+	else if(Type == '1') {
+		parent.parent.Cts(Key,Anc+'?'+strPara);
+	}
+	else if(Type == '2') {
+		opener.top.Cts(Key,Anc+'?'+strPara);
+	}
+	else {
+		parent.Cts(Key,Anc+'?'+strPara);
+	}
+}
+
+function PrtProc(Type,Key,Anc) {
+	if(Type == '0') {
+		parent.Prt(Key,Anc+'?'+strPara);
+	}
+	else if(Type == '1') {
+		parent.parent.Prt(Key,Anc+'?'+strPara);
+	}
+	else if(Type == '2') {
+		opener.top.Prt(Key,Anc+'?'+strPara);
+	}
+	else {
+		parent.Prt(Key,Anc+'?'+strPara);
+	}
+}
+-->
+</script>
+<link href="../css/ViewerStyle.css" rel="stylesheet">
+<style>
+	v\:*	{ behavior: url(#default#VML); }
+	.drag	{ position: relative; cursor:   hand; }
+</style>
+</head>
+<script>
+<!--
+-->
+</script>
+<script src="../js/PrinterSize.js"></script>
+<script src="../js/StandardPrintFunc.js"></script>
+<body onload="javascript:parent.Old(this)" style="font-family:sans-serif;">
+<div xmlns:v="urn:schemas-microsoft-com:vml">
+<div class="top_title">
+DTC Troubleshooting: 21-03
+</div>
+<span style="display:none" id="hrDivId">
+<div style="page-break-after:always">
+</div>
+</span>
+<hr width="100%" size="2" id="hrId" color="gray">
+<table width="100%" class="Viewer">
+<tr>
+<td width="80%" class="ViewerTD" id="textTd" valign="top">
+<b>
+DTC 21-03:
+</b>
+<div>
+ CAN Vehicle Speed Stuck ON (Regular diagnosis)
+</div>
+<div>
+NOTE:
+</div>
+<ul type="disc">
+<li>
+<div>
+<a href="javascript:CtsProc('0','000000000001501','i000')">
+If the MIL stays on, or the D indicator blinks (A/T model) at the same time as DTC 21-03 is indicated, troubleshoot the PGM-FI system
+</a>
+ or the 
+<a href="javascript:CtsProc('0','000000000001091','i000')">
+automatic transmission system
+</a>
+ first, then recheck for DTC 21-03.
+</div>
+</li>
+<li>
+<div>
+Even though the system is operating normally, the EPS indicator will come on caused by the detecting condition of DTC 21-03.
+</div>
+</li>
+</ul>
+<a name="i010">
+</a>
+<ol>
+<li value="1">
+<div>
+Turn the ignition switch OFF.
+</div>
+</li>
+</ol>
+<a name="i020">
+</a>
+<ol>
+<li value="2">
+<div>
+<a href="javascript:CtsProc('0','000000000000001','i000')">
+Raise the vehicle, and support it with safety stands in the proper locations,
+</a>
+ and allow all wheels to rotate freely.
+</div>
+</li>
+</ol>
+<a name="i030">
+</a>
+<ol>
+<li value="3">
+<div>
+Start the engine, then run the vehicle in 4th gear (M/T model), or the D position (A/T model).
+</div>
+</li>
+</ol>
+<a name="i040">
+</a>
+<ol>
+<li value="4">
+<div>
+Check the VEHICLE SPEED in the EPS DATA LIST with the HDS.
+</div>
+</li>
+</ol>
+<table class="Viewer" frame="void" style="margin-left:40px;">
+<tr>
+<td class="ViewerTD">
+<i>
+<div>
+<i>
+Is 0 km/h (mph) indicated?
+</i>
+</div>
+</i>
+</td>
+</tr>
+</table>
+<table class="Viewer" frame="void" style="margin-left:50px;">
+<tr>
+<td width="30" class="ViewerTD">
+<b>
+YES
+</b>
+</td>
+<td width="10" class="ViewerTD" align="center">-
+</td>
+<td class="ViewerTD">
+<div>
+Go to 
+<a href="javascript:parent.Jmp('i050')">Step 5
+</a>
+.
+</div>
+</td>
+</tr>
+<tr>
+<td width="30" class="ViewerTD">
+<b>
+NO
+</b>
+</td>
+<td width="10" class="ViewerTD" align="center">-
+</td>
+<td class="ViewerTD">
+<div>
+Intermittent failure, the system is OK at this time. Check for poor connections or loose terminals at the EPS control unit and the ECM/PCM.■
+</div>
+</td>
+</tr>
+</table>
+<a name="i050">
+</a>
+<ol>
+<li value="5">
+<div>
+Turn the ignition switch OFF.
+</div>
+</li>
+</ol>
+<a name="i060">
+</a>
+<ol>
+<li value="6">
+<div>
+Start the engine.
+</div>
+</li>
+</ol>
+<a name="i070">
+</a>
+<ol>
+<li value="7">
+<div>
+Check the tachometer and the speedometer.
+</div>
+</li>
+</ol>
+<table class="Viewer" frame="void" style="margin-left:40px;">
+<tr>
+<td class="ViewerTD">
+<i>
+<div>
+<i>
+Is there working correctly?
+</i>
+</div>
+</i>
+</td>
+</tr>
+</table>
+<table class="Viewer" frame="void" style="margin-left:50px;">
+<tr>
+<td width="30" class="ViewerTD">
+<b>
+YES
+</b>
+</td>
+<td width="10" class="ViewerTD" align="center">-
+</td>
+<td class="ViewerTD">
+<div>
+<a href="javascript:CtsProc('0','000000000001413','i000')">
+Check for loose terminals in the EPS control unit connectors, and repair if necessary. If no poor connections are found, replace the EPS control unit.
+</a>
+■
+</div>
+</td>
+</tr>
+<tr>
+<td width="30" class="ViewerTD">
+<b>
+NO
+</b>
+</td>
+<td width="10" class="ViewerTD" align="center">-
+</td>
+<td class="ViewerTD">
+<div>
+<a href="javascript:CtsProc('0','000000000000310','i000')">
+Troubleshoot the gauge control module.
+</a>
+■
+</div>
+</td>
+</tr>
+</table>
+</td>
+<td width="20%" class="ViewerTD" id="graphTd" valign="top">
+</td>
+</tr>
+</table>
+</div>
+</body>
+</html>

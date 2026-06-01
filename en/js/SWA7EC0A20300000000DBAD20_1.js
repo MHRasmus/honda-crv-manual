@@ -1,0 +1,37 @@
+with(document) {
+write("<v:group id=\"group20\"  name=\"PrtGrpId\" class=\"drag\" style=\"position:relative; width:950px; height:703px;\" coordsize=\"950,703\">");
+write("<v:rect id=\"rect20\" name=\"PrtRectId\"class=\"drag\"  style=\"width:950px;height:703px;\">");
+write("<img id=\"img20\" name=\"PrtImgId\" src=\"../img/SWA7EC0A20300000000DBAD20.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:703px;border-color:#ffffff\">");
+write("<p id=\"p20_1\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:509px;top:15px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>DASHBOARD WIRE HARNESS<br></b></nobr>");
+write("</p>");
+write("<p id=\"p20_2\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:815px;top:444px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>JUNCTION BOX<br></b></nobr>");
+write("</p>");
+write("<p id=\"p20_3\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:666px;top:630px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>FLOOR WIRE HARNESS<br></b></nobr>");
+write("</p>");
+write("<p id=\"p20_4\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:475px;top:652px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>1<br></b></nobr>");
+write("</p>");
+write("<p id=\"p20_5\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:414px;top:639px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>2<br></b></nobr>");
+write("</p>");
+write("<p id=\"p20_6\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:340px;top:624px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>3<br></b></nobr>");
+write("</p>");
+write("<p id=\"p20_7\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:291px;top:599px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>4<br></b></nobr>");
+write("</p>");
+write("<p id=\"p20_8\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:262px;top:563px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>5<br></b></nobr>");
+write("</p>");
+write("<p id=\"p20_9\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:141px;top:524px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>6<br></b></nobr>");
+write("</p>");
+write("<p id=\"p20_10\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:511px;top:658px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>ENGINE COMPARTMENT<br>WIRE HARNESS<br></b></nobr>");
+write("</p>");
+write("</v:rect>");
+write("</v:group>");
+}

@@ -1,0 +1,31 @@
+with(document) {
+write("<v:group id=\"group21\"  name=\"PrtGrpId\" class=\"drag\" style=\"position:relative; width:950px; height:767px;\" coordsize=\"950,767\">");
+write("<v:rect id=\"rect21\" name=\"PrtRectId\"class=\"drag\"  style=\"width:950px;height:767px;\">");
+write("<img id=\"img21\" name=\"PrtImgId\" src=\"../img/SWA7E70A20300000000DBAD21.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:767px;border-color:#ffffff\">");
+write("<p id=\"p21_1\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:117px;top:352px;font-weight:normal;font-size:7.4pt;\">");
+write("<nobr><b>UNDER-DASH FUSE/RELAY BOX (E) (4)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p21_2\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:704px;top:357px;font-weight:normal;font-size:7.4pt;\">");
+write("<nobr><b>APP SENSOR (5)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p21_3\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:58px;top:34px;font-weight:normal;font-size:7.4pt;\">");
+write("<nobr><b>UNDER-DASH FUSE/RELAY<br>BOX (R) (1)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p21_4\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:110px;top:546px;font-weight:normal;font-size:7.4pt;\">");
+write("<nobr><b>D3 SWITCH (6)<br>(A/T)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p21_5\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:313px;top:539px;font-weight:normal;font-size:7.4pt;\">");
+write("<nobr><b>SHIFT LOCK<br>SOLENOID (7)<br>(A/T)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p21_6\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:396px;top:30px;font-weight:normal;font-size:7.4pt;\">");
+write("<nobr><b>UNDER-DASH FUSE/RELAY BOX (G) (2)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p21_7\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:256px;top:194px;font-weight:normal;font-size:7.4pt;\">");
+write("<nobr><b>UNDER-DASH FUSE/RELAY BOX (F) (3)<br></b></nobr>");
+write("</p>");
+write("<p id=\"p21_8\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:0px;top:705px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b></b>NOTE:<br>· Connector with male terminals (double outline): view from terminal side<br>· Connector with female terminals (single outline): view from wire side<br></nobr>");
+write("</p>");
+write("</v:rect>");
+write("</v:group>");
+}

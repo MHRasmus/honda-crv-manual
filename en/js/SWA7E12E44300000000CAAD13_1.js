@@ -1,0 +1,37 @@
+with(document) {
+write("<v:group id=\"group6\"  name=\"PrtGrpId\" class=\"drag\" style=\"position:relative; width:950px; height:447px;\" coordsize=\"950,447\">");
+write("<v:rect id=\"rect6\" name=\"PrtRectId\"class=\"drag\"  style=\"width:950px;height:447px;\">");
+write("<img id=\"img6\" name=\"PrtImgId\" src=\"../img/SWA7E12E44300000000CAAD13.PNG\" border=\"1\" class=\"drag\" style=\"position:absolute;left:0px;top:0px;width:950px;height:447px;border-color:#ffffff\">");
+write("<p id=\"p6_1\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:208px;top:149px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>HYPOID DRIVE<br>PINION GEAR<br></b></nobr>");
+write("</p>");
+write("<p id=\"p6_2\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:290px;top:32px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>OIL SEAL<br></b></nobr>");
+write("</p>");
+write("<p id=\"p6_3\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:434px;top:65px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>OIL FILLER PLUG<br></b></nobr>");
+write("</p>");
+write("<p id=\"p6_4\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:132px;top:289px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>MAGNET<br></b></nobr>");
+write("</p>");
+write("<p id=\"p6_5\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:171px;top:380px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>ATF STRAINER<br></b></nobr>");
+write("</p>");
+write("<p id=\"p6_6\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:405px;top:377px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>DIFFERENTIAL<br>CARRIER CASE<br></b></nobr>");
+write("</p>");
+write("<p id=\"p6_7\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:756px;top:322px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>OIL SEAL<br></b></nobr>");
+write("</p>");
+write("<p id=\"p6_8\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:705px;top:91px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>DIFFERENTIAL<br>HOUSING<br></b></nobr>");
+write("</p>");
+write("<p id=\"p6_9\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:708px;top:422px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>DRAIN PLUG<br></b></nobr>");
+write("</p>");
+write("<p id=\"p6_10\" name=\"PrtPId\" class=\"drag\" style=\"position:absolute;left:253px;top:118px;font-weight:normal;font-size:8.6pt;\">");
+write("<nobr><b>OIL PUMP PIN<br></b></nobr>");
+write("</p>");
+write("</v:rect>");
+write("</v:group>");
+}
